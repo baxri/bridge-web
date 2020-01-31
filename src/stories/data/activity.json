@@ -1,0 +1,15 @@
+{
+  "time": "04.09 1: 27 PM",
+  "activities": [
+    {
+      "intro_id": "c73632ec-c6e9-4c67-9ced-01cea6be97e7",
+      "text": "Opt-in email sent to <b>Test 1</b> to intro them to <b>Test 2</b>",
+      "time": "04.09 1: 27 PM"
+    },
+    {
+      "intro_id": "c73632ec-c6e9-4c67-9ced-01cea6be97e7",
+      "text": "Opt-in email approved by <b>Test 1</b> to intro them to <b>Test 2</b>",
+      "time": "04.09 1: 28 PM"
+    }
+  ]
+}

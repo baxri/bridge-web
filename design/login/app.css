@@ -1,0 +1,452 @@
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  font-family: 'Muli', sans-serif;
+  /* Margin bottom by footer height */
+  margin-bottom: 95px;
+}
+
+.app-container {
+  padding-top: 30px;
+}
+
+h1 {
+  font-size: 55px;
+  line-height: 1.3em;
+  margin: 0; }
+
+.page h1 {
+  font-size: 42px; }
+
+h2 {
+  font-size: 50px;
+  margin-top: 0; }
+
+h3 {
+  font-size: 24px; }
+
+p {
+  font-size: 16px;
+  line-height: 1.6em; }
+
+.page header {
+  margin-bottom: 70px; }
+  .page header h1 {
+    line-height: 1em;
+    margin-bottom: 10px; }
+  .page header .sub-heading {
+    color: #848484;
+    font-size: 28px;
+    margin-bottom: 30px; }
+  .page header p {
+    color: #848484;
+    font-size: 18px;
+    width: 50%; }
+
+/*--------------------------------------------------------------
+02. Buttons
+--------------------------------------------------------------*/
+.btn {
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border-radius: 3px;
+  transition: all ease-in-out 300ms;
+  -webkit-transition: all ease-in-out 300ms; }
+
+.btn {
+  background-color: #bdc3c7;
+  color: #fff;
+  padding: 14px 28px;
+  border: none; }
+  .btn:hover {
+    background-color: #fff;
+    color: #bdc3c7;
+    -webkit-box-shadow: 0 0 0 1px #bdc3c7;
+    box-shadow: 0 0 0 1px #bdc3c7; }
+
+.btn-default {
+  background-color: #fD4c57;
+  color: #fff;
+  padding: 14px 28px;
+  border: none; }
+  .btn-default:hover {
+    background-color: #fff;
+    color: #2b2b2b;
+    -webkit-box-shadow: 0 0 0 1px #fD4c57;
+    box-shadow: 0 0 0 1px #fD4c57; }
+
+.btn-default.disabled {
+  color: #fff; }
+
+.btn-default.disabled:hover {
+  background-color: #fD4c57;
+  opacity: 0.8; }
+
+.btn-border {
+  background-color: transparent;
+  font-size: 11px;
+  border: 1px solid #848484;
+  padding: 10px 20px; }
+  .btn-border:hover {
+    background-color: #848484;
+    color: #fff; }
+
+/*--------------------------------------------------------------
+04. Navigation
+--------------------------------------------------------------*/
+
+.nav-confirm {
+  padding-top: 60px;
+  position: relative;
+  z-index: 100; }
+
+
+.logo {
+  color: #2b2b2b;
+  font-size: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase; }
+  .logo:hover {
+    color: #2b2b2b;
+    text-decoration: none; }
+
+.nav>li>a {
+  padding-top: 3px;
+  padding-bottom: 3px;
+  color: #2b2b2b;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-transform: uppercase; }
+
+.navbar-toggle .icon-bar {
+  background-color: black;
+}
+
+/*--------------------------------------------------------------
+10. Contact
+--------------------------------------------------------------*/
+.contact {
+  padding-top: 25px; }
+  .contact .sub-section {
+    margin-top: 90px;
+    margin-bottom: 50px; }
+
+.contact-info {
+  background-color: #f8f8f8;
+  padding: 45px 45px 20px 45px; }
+  .contact-info p {
+    font-size: 16px;
+    line-height: 1.7em;
+    margin-bottom: 25px; }
+
+.contact-form p {
+  margin-bottom: 30px; }
+.contact-form label {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 10px; }
+.contact-form .form-control {
+  border-radius: 0;
+  border-color: #848484;
+  -webkit-box-shadow: none;
+  box-shadow: none; }
+.contact-form input {
+  height: 50px;
+  margin-bottom: 40px; }
+.contact-form button {
+  margin-top: 10px; }
+
+.contact-2 header {
+  text-align: center;
+  margin-bottom: 40px; }
+  .contact-2 header p {
+    margin-left: auto;
+    margin-right: auto; }
+.contact-2 .col-centered {
+  float: none!important;
+  margin: 0 auto;
+  vertical-align: top; }
+.contact-2 .contact-form {
+  width: 100%;
+  margin-top: 40px; }
+
+.contact-2-info {
+  background-color: #f8f8f8;
+  text-align: center;
+  padding: 30px;
+  height: 175px;
+  display: flex;
+  display: -webkit-flex; }
+  .contact-2-info .content {
+    margin: auto auto; }
+  .contact-2-info i {
+    color: #cecece;
+    font-size: 45px;
+    margin-bottom: 10px; }
+  .contact-2-info p {
+    font-size: 16px; }
+
+/*--------------------------------------------------------------
+10a. Intro
+--------------------------------------------------------------*/
+
+.intro {
+  padding-top: 25px; }
+  .intro .sub-section {
+    margin-top: 90px;
+    margin-bottom: 50px; }
+
+.intro header {
+  text-align: center;
+  margin-bottom: 20px; }
+  .intro header p {
+    margin-left: auto;
+    margin-right: auto; }
+.intro .col-centered {
+  float: none!important;
+  margin: 0 auto;
+  vertical-align: top; }
+.intro .intro-form {
+  width: 100%;
+  margin-top: 20px;
+  min-height: 450px;
+}
+
+.intro-form p {
+  margin-bottom: 30px; }
+.intro-form label {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 10px; }
+.intro-form .form-control {
+  border-radius: 0;
+  border-color: #848484;
+  -webkit-box-shadow: none;
+  box-shadow: none; }
+.intro-form input {
+  height: 50px;
+  margin-bottom: 20px; }
+.intro-form button {
+  margin-top: 10px; }
+
+.intro-preview-form .btn-cancel {
+  margin-left: 10px; }
+
+.preview {
+  margin-bottom: 20px;
+}
+.preview {
+  margin-bottom: 20px;
+  background-color: #ecf0f1;
+  padding: 20px 20px;
+}
+.preview span {
+  font-size: 22px;
+}
+.preview span.link {
+  color: #3498db;
+}
+
+/*--------------------------------------------------------------
+11. Forms
+--------------------------------------------------------------*/
+
+.default-form {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.default-form p {
+  margin-bottom: 30px; }
+.default-form label {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 10px; }
+.default-form .form-control {
+  border-radius: 0;
+  border-color: #848484;
+  -webkit-box-shadow: none;
+  box-shadow: none; }
+.default-form input {
+  height: 50px;
+  margin-bottom: 20px; }
+.default-form button {
+  margin-top: 10px; }
+
+/*--------------------------------------------------------------
+12. Footer
+--------------------------------------------------------------*/
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  /* Set the fixed height of the footer here */
+  height: 90px;
+  background-color: white;
+  text-align: center;
+}
+  footer a {
+    color: #2b2b2b; }
+  footer nav {
+    margin-bottom: 45px; }
+    footer nav a {
+      font-size: 16px;
+      padding-left: 15px;
+      padding-right: 15px;
+      transition: all ease-in-out 300ms;
+      -webkit-transition: all ease-in-out 300ms; }
+      footer nav a:hover {
+        text-decoration: none;
+        opacity: 0.7; }
+
+.copyright {
+  color: #848484;
+  font-size: 12px; }
+
+
+
+    /* vietnamese */
+    @font-face {
+      font-family: 'Muli';
+      font-style: normal;
+      font-weight: 300;
+      src: local('Muli Light'), local('Muli-Light'), url(https://fonts.gstatic.com/s/muli/v10/F1xemzW-ll-DS_cw7XzYlFKPGs1ZzpMvnHX-7fPOuAc.woff2) format('woff2');
+      unicode-range: U+0102-0103, U+1EA0-1EF9, U+20AB;
+    }
+    /* latin-ext */
+    @font-face {
+      font-family: 'Muli';
+      font-style: normal;
+      font-weight: 300;
+      src: local('Muli Light'), local('Muli-Light'), url(https://fonts.gstatic.com/s/muli/v10/849cjs-cyAZl3ZpQj1JaJlKPGs1ZzpMvnHX-7fPOuAc.woff2) format('woff2');
+      unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+    }
+    /* latin */
+    @font-face {
+      font-family: 'Muli';
+      font-style: normal;
+      font-weight: 300;
+      src: local('Muli Light'), local('Muli-Light'), url(https://fonts.gstatic.com/s/muli/v10/mls_29xz6YyJHsylG8hcCgLUuEpTyoUstqEm5AMlJo4.woff2) format('woff2');
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+    }
+    /* vietnamese */
+    @font-face {
+      font-family: 'Muli';
+      font-style: normal;
+      font-weight: 400;
+      src: local('Muli Regular'), local('Muli-Regular'), url(https://fonts.gstatic.com/s/muli/v10/tg9tUAlnncaBSUvJ5NYofRTbgVql8nDJpwnrE27mub0.woff2) format('woff2');
+      unicode-range: U+0102-0103, U+1EA0-1EF9, U+20AB;
+    }
+    /* latin-ext */
+    @font-face {
+      font-family: 'Muli';
+      font-style: normal;
+      font-weight: 400;
+      src: local('Muli Regular'), local('Muli-Regular'), url(https://fonts.gstatic.com/s/muli/v10/uw51sWa2VJFEFkdnqqMZ1RTbgVql8nDJpwnrE27mub0.woff2) format('woff2');
+      unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+    }
+    /* latin */
+    @font-face {
+      font-family: 'Muli';
+      font-style: normal;
+      font-weight: 400;
+      src: local('Muli Regular'), local('Muli-Regular'), url(https://fonts.gstatic.com/s/muli/v10/zscZFkjVRGyfQ_Pw-5exXPesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+    }
+    /* vietnamese */
+    @font-face {
+      font-family: 'Muli';
+      font-style: italic;
+      font-weight: 300;
+      src: local('Muli Light Italic'), local('Muli-LightItalic'), url(https://fonts.gstatic.com/s/muli/v10/G15Tq-QAo18i2r96I1Ml44X0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
+      unicode-range: U+0102-0103, U+1EA0-1EF9, U+20AB;
+    }
+    /* latin-ext */
+    @font-face {
+      font-family: 'Muli';
+      font-style: italic;
+      font-weight: 300;
+      src: local('Muli Light Italic'), local('Muli-LightItalic'), url(https://fonts.gstatic.com/s/muli/v10/0gL1YdoijNI33SW2fRDrb4X0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
+      unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+    }
+    /* latin */
+    @font-face {
+      font-family: 'Muli';
+      font-style: italic;
+      font-weight: 300;
+      src: local('Muli Light Italic'), local('Muli-LightItalic'), url(https://fonts.gstatic.com/s/muli/v10/Q5N_zd0042xOVES9NXt9QpBw1xU1rKptJj_0jans920.woff2) format('woff2');
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+    }
+    /* vietnamese */
+    @font-face {
+      font-family: 'Muli';
+      font-style: italic;
+      font-weight: 400;
+      src: local('Muli Italic'), local('Muli-Italic'), url(https://fonts.gstatic.com/s/muli/v10/cRBijjMEfY1p6JfqTo9cIX-_kf6ByYO6CLYdB4HQE-Y.woff2) format('woff2');
+      unicode-range: U+0102-0103, U+1EA0-1EF9, U+20AB;
+    }
+    /* latin-ext */
+    @font-face {
+      font-family: 'Muli';
+      font-style: italic;
+      font-weight: 400;
+      src: local('Muli Italic'), local('Muli-Italic'), url(https://fonts.gstatic.com/s/muli/v10/G_ZlRFQTBeSqIwAWw9aKjH-_kf6ByYO6CLYdB4HQE-Y.woff2) format('woff2');
+      unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+    }
+    /* latin */
+    @font-face {
+      font-family: 'Muli';
+      font-style: italic;
+      font-weight: 400;
+      src: local('Muli Italic'), local('Muli-Italic'), url(https://fonts.gstatic.com/s/muli/v10/YxNEAWILjDc466nftZdqXuvvDin1pK8aKteLpeZ5c0A.woff2) format('woff2');
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+    }
+
+
+@media only screen and (max-width: 768px) {
+
+  footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .bio-container {
+    margin-top: -20px;
+  }
+
+  .nav-confirm {
+    padding-top: 10px;
+  }
+
+  .page h1 {
+    font-size: 40px;
+  }
+
+  .page header p {
+    color: #848484;
+    font-size: 18px;
+    width: 100%;
+  }
+
+  .contact {
+    padding-top: 0px;
+  }
+  .contact-2 header {
+    margin-bottom: 0px;
+  }
+
+  .contact-2 .contact-form {
+    margin-top: 0px;
+  }
+
+  .app-container {
+    padding-top: 30px;
+  }
+}

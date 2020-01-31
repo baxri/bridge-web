@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "from": "Braeden Olson",
+    "fromAvatarUrl": "https://s3.amazonaws.com/uifaces/faces/twitter/theonlyzeke/128.jpg",
+    "to": "Lazaro Terry",
+    "toAvatarUrl": "https://s3.amazonaws.com/uifaces/faces/twitter/theonlyzeke/128.jpg",
+    "status": "initialized",
+    "created_at": "2018-12-11T10:04:40.902Z"
+  },
+  {
+    "id": 2,
+    "from": "Kanye West",
+    "fromAvatarUrl": "https://s3.amazonaws.com/uifaces/faces/twitter/theonlyzeke/128.jpg",
+    "to": "Donald Trump",
+    "toAvatarUrl": "https://s3.amazonaws.com/uifaces/faces/twitter/theonlyzeke/128.jpg",
+    "status": "accepted",
+    "created_at": "2018-11-11T10:04:40.902Z"
+  }
+]

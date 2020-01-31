@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://npmcdn.com/react-bootstrap-table/dist/react-bootstrap-table.min.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="app.css">
+    <!--
+      Notice the use of %PUBLIC_URL% in the tag above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>Intro Path</title>
+  </head>
+
+  <body>
+
+    <!-- See src/components/template/header.js and src/components/template/nav.js for current code -->
+    <nav class="nav-confirm">
+      <div class="container">
+        <!-- <div class="row">
+          <div class="col-xs-6">
+            <a class="current-parent logo">INTROPATH</a>
+          </div>
+          <div class="col-xs-6">
+          </div>
+        </div> -->
+
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="logo" href="/">INTROPATH</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="nav-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a class="logo" href="/profile">Introductions</a>
+            </li>
+            <li>
+              <a class="logo" href="/profile">Profile</a>
+            </li>
+            <li>
+              <a class="logo" href="/logout">Logout</a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </nav>
+
+    <!-- See src/components/app.js -->
+    <div class="container app-container">
+
+      <div class="page intro">
+          <div class="container">
+            <header class="intro-heading">
+              <!-- <h1 class="">
+                New Introduction
+              </h1> -->
+              <p class="sub-heading">
+                Check up on those intros &amp; where they're at.
+              </p>
+            </header>
+
+            <div class="col-md-9 col-centered actions">
+              <div class="row">
+                <div class="col-md-4 col-xs-6">
+                  <button class="btn btn-default back-btn"><i class="fa fa-chevron-left"></i>&nbsp;&nbsp;Back To Intros</span></button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Intro -->
+            <div class="col-md-9 col-centered">
+              <div class="row row-centered">
+                <div class="row introductions">
+                  <div class="row">
+                    <div class="col-md-4 col-xs-5 ellipsis">
+                      <span>John Doe<br/><span style="font-weight:100;">johndoe@gmail.com</span></span>
+                    </div>
+                    <div class="col-md-8 col-xs-5 ellipsis">
+                      <span>Max Power<br/><span style="font-weight:100;">max.power@googlemail.com</span></span>
+                    </div>
+                  </div>
+
+                  <div class="divider"></div>
+
+                  <div class="row intro-row">
+                    <div class="col-md-8 col-xs-8 last-timeline-entry">
+                      <span>20m &middot; Email sent to Max</span>
+                    </div>
+                    <div class="col-md-4 col-xs-4">
+                      <div class="pull-right">
+                        <button class="btn btn-default">Resend email to Max</button>
+                      </div>
+                    </div>
+
+                    <div class="col-md-8 col-xs-8 last-timeline-entry">
+                      <span>30m &middot; Intro confirmed by You</span>
+                    </div>
+
+                    <div class="col-md-8 col-xs-8 last-timeline-entry" style="margin-top: 10px;">
+                      <span>50m &middot; Intro approved by John</span>
+                    </div>
+
+                    <div class="col-md-8 col-xs-8 last-timeline-entry" style="margin-top: 10px;">
+                      <span>51m &middot; Email opened by John</span>
+                    </div>
+
+                    <div class="col-md-8 col-xs-8 last-timeline-entry" style="margin-top: 10px;">
+                      <span>2h &middot; Email sent to John</span>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+          </div>
+      </div>
+
+    </div>
+
+    <!-- See src/components/template/footer.js -->
+    <div>
+      <div style="display: block; padding: 20px; height: 120px; width: 100%" />
+      <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <p class="copyright">Copyright © 2017, IntroPath. All Rights Reserved.</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+    <script src="./app.js"></script>
+
+  </body>
+</html>

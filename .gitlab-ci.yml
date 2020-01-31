@@ -1,0 +1,56 @@
+image: djungerpivotal/ruby-node-chrome-docker
+
+services:
+  - postgres:9.6
+  - redis:3
+
+cache:
+  key: intro_client_test
+  paths:
+    - node_modules/
+    - intro-backend/vendor/ruby
+
+variables:
+  POSTGRES_DB: intro-backend_test
+  POSTGRES_USER: runner
+  POSTGRES_PASSWORD: ''
+  REACT_APP_MIXPANEL_TOKEN: 7f5f80abfd0a7835b81090a29e7cba19
+  REDISCLOUD_URL: redis://redis:6379/0
+  JWT_SECRET: 4D6wwY9jsYZ3SrF3sTb5Pa
+  PASSWORD_RESET_EXPIRY_IN_SECONDS: 3600
+  REACT_APP_ALLOW_SEND_WITHOUT_TOKENS: 'true'
+
+before_script:
+  # Clone intro-backend repo
+  - BASE_URL=`echo $CI_REPOSITORY_URL | sed "s;\/*$CI_PROJECT_PATH.*;;"`
+  - REPO_URL="$BASE_URL/intropath/intro-backend.git"
+  - mv intro-backend intro-backend-tmp
+  - git clone $REPO_URL
+  - mv intro-backend-tmp/vendor intro-backend/
+  # Setup and run intro-backend
+  - cd intro-backend
+  - gem install bundler -v "=1.17.3" --no-ri --no-rdoc
+  - bundle install -j $(nproc) --path vendor
+  - cp config/database.yml.gitlab config/database.yml
+  - RAILS_ENV=test rails db:create db:schema:load
+  - rake test_server:start_d
+  # Setup and run intro-client
+  - cd ..
+  - npm install
+  - npm run build_for_ci
+  - npm run serve_for_ci
+
+test:
+  script:
+    - npm run test_for_ci
+
+test_manual:
+  script:
+    - npm run test_for_ci
+  when: manual
+  artifacts:
+    paths:
+      - ./scr
+      - ./intro-backend/log
+    when: on_failure
+    expire_in: 2 day

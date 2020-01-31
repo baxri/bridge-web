@@ -1,0 +1,433 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://npmcdn.com/react-bootstrap-table/dist/react-bootstrap-table.min.css">
+
+    <link rel="stylesheet" href="app.css">
+    <!--
+      Notice the use of %PUBLIC_URL% in the tag above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>Intro Path</title>
+  </head>
+
+  <body>
+
+    <!-- See src/components/template/header.js and src/components/template/nav.js for current code -->
+    <nav class="nav-confirm">
+      <div class="container">
+        <!-- <div class="row">
+          <div class="col-xs-6">
+            <a class="current-parent logo">INTROPATH</a>
+          </div>
+          <div class="col-xs-6">
+          </div>
+        </div> -->
+
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="logo" href="/">INTROPATH</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="nav-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a class="logo" href="/profile">Introductions</a>
+            </li>
+            <li>
+              <a class="logo" href="/profile">Profile</a>
+            </li>
+            <li>
+              <a class="logo" href="/logout">Logout</a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </nav>
+
+    <!-- See src/components/app.js -->
+    <div class="container app-container">
+
+      <div class="page intro">
+          <div class="container">
+            <header class="intro-heading">
+              <!-- <h1 class="">
+                New Introduction
+              </h1> -->
+              <p class="sub-heading">
+                Check up on those intros &amp; where they're at.
+              </p>
+            </header>
+
+            <div class="col-md-9 col-centered actions">
+              <div class="row">
+                <div class="col-md-4 col-xs-6" style="margin-top: 5px;">
+                  <a class="btn btn-default btn-select btn-select-light">
+                    <input type="hidden" class="btn-select-input" id="" name="" value="" />
+                    <span class="btn-select-value">All Intros</span>
+                    <span class='btn-select-arrow glyphicon glyphicon-chevron-down'></span>
+                    <ul>
+                        <li>Completed Intros</li>
+                        <li>Active Intros</li>
+                        <li>Declined Intros</li>
+                        <li>Archived Intros</li>
+                    </ul>
+                  </a>
+                </div>
+                <div class="col-md-8 col-xs-6">
+                  <div class="pull-right">
+                    <button class="btn btn-default">New Intro</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Intro -->
+            <div class="col-md-9 col-centered">
+              <div class="row row-centered">
+                <div class="row introductions">
+                  <div class="row top">
+                    <div class="col-md-4 col-xs-12">
+                      <span>John Doe<br/><span style="font-weight:100;">johndoe@gmail.com</span></span>
+                    </div>
+                    <div class="col-md-4 col-xs-12 ellipsis">
+                      <span>Max Power<br/><span style="font-weight:100;">max.power@googlemail.com</span></span>
+                    </div>
+                    <div class="col-md-4 col-xs-12">
+                      <span>Waiting on Max...<br/>
+                      <a id="timeline1Show" href="javascript:$('#timeline1Show').addClass('hide');$('#timeline1Hide').removeClass('hide');$('#timeline1').removeClass('hide');">See Timeline</a>
+                      <a id="timeline1Hide" class="hide" href="javascript:$('#timeline1Hide').addClass('hide');$('#timeline1Show').removeClass('hide');$('#timeline1').addClass('hide');">Hide Timeline</a>
+                      <span>
+                    </div>
+                  </div>
+                  <div id="timeline1" class="row timeline hide">
+                    <div class="row">
+                      <div style="float:left; text-align: right; width: 100px; margin-right: 5px;">
+                        <span style="font-weight:100;">20m &middot;</span>
+                      </div>
+                      <div style="float:left;">
+                        <span>Email sent to Max</span>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div style="float:left; text-align: right; width: 100px; margin-right: 5px;">
+                        <span style="font-weight:100;">20m &middot;</span>
+                      </div>
+                      <div style="float:left;">
+                        <span>Intro confirmed by You</span>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div style="float:left; text-align: right; width: 100px; margin-right: 5px;">
+                        <span style="font-weight:100;">50m &middot;</span>
+                      </div>
+                      <div style="float:left;">
+                        <span>Intro approved by John</span>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div style="float:left; text-align: right; width: 100px; margin-right: 5px;">
+                        <span style="font-weight:100;">51m &middot;</span>
+                      </div>
+                      <div style="float:left;">
+                        <span>Email opened by John</span>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div style="float:left; text-align: right; width: 100px; margin-right: 5px;">
+                        <span style="font-weight:100;">2h &middot;</span>
+                      </div>
+                      <div style="float:left;">
+                        <span>Email sent to John</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div style="margin-left: 15px; margin-top: 20px;">
+                      <button class="btn btn-default">Resend email to Max</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Intro -->
+            <div class="col-md-9 col-centered">
+              <div class="row row-centered">
+                <div class="row introductions">
+                  <div class="row top">
+                    <div class="col-md-4 col-xs-12">
+                      <span>Jane Doris<br/><span style="font-weight:100;">me@janedoris.com</span></span>
+                    </div>
+                    <div class="col-md-4 col-xs-12 ellipsis">
+                      <span>Max Power<br/><span style="font-weight:100;">max.power@googlemail.com</span></span>
+                    </div>
+                    <div class="col-md-4 col-xs-12">
+                      <span>Waiting on You...<br/>
+                      <a id="timeline2Show" href="javascript:$('#timeline2Show').addClass('hide');$('#timeline2Hide').removeClass('hide');$('#timeline2').removeClass('hide');">See Timeline</a>
+                    <a id="timeline2Hide" class="hide" href="javascript:$('#timeline2Hide').addClass('hide');$('#timeline2Show').removeClass('hide');$('#timeline2').addClass('hide');">Hide Timeline</a>
+                      <span>
+                    </div>
+                  </div>
+                  <div id="timeline2" class="timeline hide">
+                    <div class="row">
+                      <div style="float:left; text-align: right; width: 100px; margin-right: 5px;">
+                        <span style="font-weight:100;">10m &middot;</span>
+                      </div>
+                      <div style="float:left;">
+                        <span>Intro approved by Jane</span>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div style="float:left; text-align: right; width: 100px; margin-right: 5px;">
+                        <span style="font-weight:100;">10m &middot;</span>
+                      </div>
+                      <div style="float:left;">
+                        <span>Email opened by Jane</span>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div style="float:left; text-align: right; width: 100px; margin-right: 5px;">
+                        <span style="font-weight:100;">1d &middot;</span>
+                      </div>
+                      <div style="float:left;">
+                        <span>Email sent to Jane</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div style="margin-left: 15px; margin-top: 20px;">
+                      <button class="btn btn-default">Confirm Intro</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Intro -->
+
+            <!-- Intro -->
+            <div class="col-md-9 col-centered">
+              <div class="row row-centered">
+                <div class="row introductions">
+                  <div class="row top">
+                    <div class="col-md-4 col-xs-12">
+                      <span>Maxime Smith<br/><span style="font-weight:100;">msmith@hotmail.com</span></span>
+                    </div>
+                    <div class="col-md-4 col-xs-12 ellipsis">
+                      <span>Jeff Cloggs<br/><span style="font-weight:100;">mrcloggs@gmail.com</span></span>
+                    </div>
+                    <div class="col-md-4 col-xs-12">
+                      <span>Yay, completed!<br/>
+                      <a id="timeline3Show" href="javascript:$('#timeline3Show').addClass('hide');$('#timeline3Hide').removeClass('hide');$('#timeline3').removeClass('hide');">See Timeline</a>
+                    <a id="timeline3Hide" class="hide" href="javascript:$('#timeline3Hide').addClass('hide');$('#timeline3Show').removeClass('hide');$('#timeline3').addClass('hide');">Hide Timeline</a>
+                      <span>
+                    </div>
+                  </div>
+                  <div id="timeline3" class="timeline hide">
+                    <div class="row">
+                      <div style="float:left; text-align: right; width: 100px; margin-right: 5px;">
+                        <span style="font-weight:100;">2d &middot;</span>
+                      </div>
+                      <div style="float:left;">
+                        <span>Email opened by Maxime</span>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div style="float:left; text-align: right; width: 100px; margin-right: 5px;">
+                        <span style="font-weight:100;">2d &middot;</span>
+                      </div>
+                      <div style="float:left;">
+                        <span>Email opened by Jeff</span>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div style="float:left; text-align: right; width: 100px; margin-right: 5px;">
+                        <span style="font-weight:100;">2d &middot;</span>
+                      </div>
+                      <div style="float:left;">
+                        <span>Email sent to Maxime &amp; Jeff</span>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div style="float:left; text-align: right; width: 100px; margin-right: 5px;">
+                        <span style="font-weight:100;">2d &middot;</span>
+                      </div>
+                      <div style="float:left;">
+                        <span>Intro approved by Jeff</span>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div style="float:left; text-align: right; width: 100px; margin-right: 5px;">
+                        <span style="font-weight:100;">2d &middot;</span>
+                      </div>
+                      <div style="float:left;">
+                        <span>Email opened by Jeff</span>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div style="float:left; text-align: right; width: 100px; margin-right: 5px;">
+                        <span style="font-weight:100;">2d &middot;</span>
+                      </div>
+                      <div style="float:left;">
+                        <span>Email sent to Jeff</span>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div style="float:left; text-align: right; width: 100px; margin-right: 5px;">
+                        <span style="font-weight:100;">2d &middot;</span>
+                      </div>
+                      <div style="float:left;">
+                        <span>Intro confirmed by You</span>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div style="float:left; text-align: right; width: 100px; margin-right: 5px;">
+                        <span style="font-weight:100;">2d &middot;</span>
+                      </div>
+                      <div style="float:left;">
+                        <span>Intro approved by Maxime</span>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div style="float:left; text-align: right; width: 100px; margin-right: 5px;">
+                        <span style="font-weight:100;">2d &middot;</span>
+                      </div>
+                      <div style="float:left;">
+                        <span>Email opened by Maxime</span>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div style="float:left; text-align: right; width: 100px; margin-right: 5px;">
+                        <span style="font-weight:100;">2d &middot;</span>
+                      </div>
+                      <div style="float:left;">
+                        <span>Email sent to Maxime</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Intro -->
+
+            <!-- Intro -->
+            <div class="col-md-9 col-centered">
+              <div class="row row-centered">
+                <div class="row introductions">
+                  <div class="row top">
+                    <div class="col-md-4 col-xs-12">
+                      <span>Paul Clark<br/><span style="font-weight:100;">paulclark@gmail.com</span></span>
+                    </div>
+                    <div class="col-md-4 col-xs-12 ellipsis">
+                      <span>Jeff Cloggs<br/><span style="font-weight:100;">mrcloggs@gmail.com</span></span>
+                    </div>
+                    <div class="col-md-4 col-xs-12">
+                      <span>Intro rejected by Jeff :(<br/>
+                      <a id="timeline4Show" href="javascript:$('#timeline4Show').addClass('hide');$('#timeline4Hide').removeClass('hide');$('#timeline4').removeClass('hide');">See Timeline</a>
+                    <a id="timeline4Hide" class="hide" href="javascript:$('#timeline4Hide').addClass('hide');$('#timeline4Show').removeClass('hide');$('#timeline4').addClass('hide');">Hide Timeline</a>
+                      <span>
+                    </div>
+                  </div>
+                  <div id="timeline4" class="timeline hide">
+                    <div class="row">
+                      <div style="float:left; text-align: right; width: 100px; margin-right: 5px;">
+                        <span style="font-weight:100;">3d &middot;</span>
+                      </div>
+                      <div style="float:left;">
+                        <span>Intro rejected by Jeff</span>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div style="float:left; text-align: right; width: 100px; margin-right: 5px;">
+                        <span style="font-weight:100;">3d &middot;</span>
+                      </div>
+                      <div style="float:left;">
+                        <span>Email opened by Jeff</span>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div style="float:left; text-align: right; width: 100px; margin-right: 5px;">
+                        <span style="font-weight:100;">4d &middot;</span>
+                      </div>
+                      <div style="float:left;">
+                        <span>Email sent to Jeff</span>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div style="float:left; text-align: right; width: 100px; margin-right: 5px;">
+                        <span style="font-weight:100;">4d &middot;</span>
+                      </div>
+                      <div style="float:left;">
+                        <span>Intro confirmed by You</span>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div style="float:left; text-align: right; width: 100px; margin-right: 5px;">
+                        <span style="font-weight:100;">4d &middot;</span>
+                      </div>
+                      <div style="float:left;">
+                        <span>Intro approved by Paul</span>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div style="float:left; text-align: right; width: 100px; margin-right: 5px;">
+                        <span style="font-weight:100;">4d &middot;</span>
+                      </div>
+                      <div style="float:left;">
+                        <span>Email opened by Paul</span>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div style="float:left; text-align: right; width: 100px; margin-right: 5px;">
+                        <span style="font-weight:100;">4d &middot;</span>
+                      </div>
+                      <div style="float:left;">
+                        <span>Email sent to Paul</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Intro -->
+
+          </div>
+      </div>
+
+    </div>
+
+    <!-- See src/components/template/footer.js -->
+    <div>
+      <div style="display: block; padding: 20px; height: 120px; width: 100%" />
+      <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <p class="copyright">Copyright © 2017, IntroPath. All Rights Reserved.</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+    <script src="./app.js"></script>
+
+  </body>
+</html>

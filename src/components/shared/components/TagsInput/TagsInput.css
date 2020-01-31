@@ -1,0 +1,7 @@
+.react-tagsinput-tag--focused {
+  background-color: #ccc !important;
+}
+
+.react-tagsinput-tag {
+  cursor: pointer;
+}

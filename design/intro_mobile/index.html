@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://npmcdn.com/react-bootstrap-table/dist/react-bootstrap-table.min.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="app.css">
+    <!--
+      Notice the use of %PUBLIC_URL% in the tag above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>Intro Path</title>
+  </head>
+
+  <body>
+
+    <!-- See src/components/template/header.js and src/components/template/nav.js for current code -->
+    <nav class="nav-confirm">
+      <div class="container">
+        <!-- <div class="row">
+          <div class="col-xs-6">
+            <a class="current-parent logo">INTROPATH</a>
+          </div>
+          <div class="col-xs-6">
+          </div>
+        </div> -->
+
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <div style="position: relative; float: left; margin-left: 20px; margin-top: 12px; width: 340px;">
+            <a href="/" style="text-align: left; float: left; font-size: 18px;"><i class="fa fa-chevron-left" style="color: black"></i></a>
+            <a class="logo" href="/" style="display: inline; text-align: center; width: 327px; float: left; margin: 0;">&nbsp;MAKE INTRO</a>
+          </div>
+        </div>
+
+        <div class="collapse navbar-collapse" id="nav-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a class="logo" href="/profile">Introductions</a>
+            </li>
+            <li>
+              <a class="logo" href="/profile">Profile</a>
+            </li>
+            <li>
+              <a class="logo" href="/logout">Logout</a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </nav>
+
+    <!-- See src/components/app.js -->
+    <div class="container app-container">
+
+      <div class="page intro">
+          <div class="container">
+            <form class="intro-form form-inline intro-form-introduce">
+              <div class="col-md-9 col-centered">
+                <div class="row row-centered">
+                  <div class="row">
+                    <div class="col-md-6 col-xs-12">
+                      <div class="form-group">
+                        <label for="introduce">Intro</label>
+                        <input type="text" class="form-control" id="introduce" placeholder="Type a name (e.g. John Smith)">
+                        <i class="fa fa-chevron-right"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </form>
+
+            <form class="intro-form intro-form-introduce-autocomplete hide">
+              <div class="col-md-9 col-centered">
+                <div class="row row-centered">
+                  <div class="row autocomplete">
+                    <div class="col-md-6 col-xs-12">
+                      <input class="form-control" type="text" style="border-top: 0px; margin-bottom: 0px; border-bottom-color: #cecece;" value="John Smith john.smith@gmail.com"/>
+                      <input class="form-control" type="text" style="margin-bottom: 0px; border-bottom-color: #cecece; border-top: 0px;" value="John Smith jsmith@gmail.com"/>
+                      <input class="form-control" type="text" style="margin-bottom: 0px; border-bottom-color: #cecece; border-top: 0px;" value="John Terry johnt@gmail.com"/>
+                      <input class="form-control" type="text" style="margin-bottom: 0px; border-bottom-color: #cecece; border-top: 0px;" value="Johnny Vegas johnnyvegas@gmail.com"/>
+                      <input class="form-control" type="text" style="margin-bottom: 0px; border-bottom-color: #cecece; border-top: 0px;" value="Jools Johnson"/>
+                      <input class="form-control" type="text" style="border-top: 0px;" value="June Tally junet@hotmail.com"/>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </form>
+
+            <form class="intro-form form-inline intro-form-introduce-email hide">
+              <div class="col-md-9 col-centered">
+                <div class="row row-centered">
+                  <div class="row">
+                    <div class="col-md-6 col-xs-12">
+                      <div class="form-group">
+                        <label for="introduce">Email</label>
+                        <input type="text" class="form-control" id="introduce-email" placeholder="Jool's email" style="width: 314px;">
+                        <i class="fa fa-chevron-right"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </form>
+
+            <form class="intro-form intro-form-introduce-email-autocomplete hide">
+              <div class="col-md-9 col-centered">
+                <div class="row row-centered">
+                  <div class="row autocomplete">
+                    <div class="col-md-6 col-xs-12">
+                      <input class="form-control" type="text" style="border-top: 0px; margin-bottom: 0px; border-bottom-color: #cecece;" value="john.smith@gmail.com"/>
+                      <input class="form-control" type="text" style="margin-bottom: 0px; border-bottom-color: #cecece; border-top: 0px;" value="jsmith@gmail.com"/>
+                      <input class="form-control" type="text" style="margin-bottom: 0px; border-bottom-color: #cecece; border-top: 0px;" value="johnt@gmail.com"/>
+                      <input class="form-control" type="text" style="margin-bottom: 0px; border-bottom-color: #cecece; border-top: 0px;" value="johnnyvegas@gmail.com"/>
+                      <input class="form-control" type="text" style="margin-bottom: 0px; border-bottom-color: #cecece; border-top: 0px;" value="jools@hotmail.com"/>
+                      <input class="form-control" type="text" style="border-top: 0px;" value="junet@hotmail.com"/>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </form>
+
+
+            <form class="intro-form form-inline intro-form-to hide">
+              <div class="col-md-9 col-centered">
+                <div class="row row-centered">
+                  <div class="row">
+                    <div class="col-md-6 col-xs-12">
+                      <div class="form-group">
+                        <label for="introduce">To</label>
+                        <input type="text" class="form-control" id="to" placeholder="Type a name (e.g. Jane Brown)" style="width: 339px;">
+                        <i class="fa fa-chevron-right"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </form>
+
+            <form class="intro-form intro-form-to-autocomplete hide">
+              <div class="col-md-9 col-centered">
+                <div class="row row-centered">
+                  <div class="row autocomplete">
+                    <div class="col-md-6 col-xs-12">
+                      <input class="form-control" type="text" style="border-top: 0px; margin-bottom: 0px; border-bottom-color: #cecece;" value="John Smith john.smith@gmail.com"/>
+                      <input class="form-control" type="text" style="margin-bottom: 0px; border-bottom-color: #cecece; border-top: 0px;" value="John Smith jsmith@gmail.com"/>
+                      <input class="form-control" type="text" style="margin-bottom: 0px; border-bottom-color: #cecece; border-top: 0px;" value="John Terry johnt@gmail.com"/>
+                      <input class="form-control" type="text" style="margin-bottom: 0px; border-bottom-color: #cecece; border-top: 0px;" value="Johnny Vegas johnnyvegas@gmail.com"/>
+                      <input class="form-control" type="text" style="margin-bottom: 0px; border-bottom-color: #cecece; border-top: 0px;" value="Jools Johnson"/>
+                      <input class="form-control" type="text" style="border-top: 0px;" value="June Tally junet@hotmail.com"/>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </form>
+
+
+            <form class="intro-preview-form hide">
+              <div class="col-md-9 col-centered">
+                <div class="row row-centered">
+                  <div class="row preview">
+                    <div class="col-md-12 col-xs-12">
+                      <span></span>
+                    </div>
+                  </div>
+                  <button class="btn btn-default btn-send-intro">Send Intro</button>
+                  <button class="btn btn-cancel">Cancel</button>
+                </div>
+              </div>
+            </form>
+            <header class="intro-confirm hide">
+              <p class="sub-heading">
+                Nice work :)<br/>Intro sent.
+              </p>
+              <button class="btn btn-default btn-done">Thanks!</button>
+            </header>
+          </div>
+      </div>
+
+    </div>
+
+    <!-- See src/components/template/footer.js -->
+    <div>
+      <div style="display: block; padding: 20px; height: 120px; width: 100%" />
+      <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <!-- <p class="copyright">Copyright © 2017, IntroPath. All Rights Reserved.</p> -->
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+    <script src="intro.js"></script>
+
+  </body>
+</html>

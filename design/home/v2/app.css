@@ -1,0 +1,966 @@
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  font-family: 'Muli', sans-serif;
+  /* Margin bottom by footer height */
+  margin-bottom: 95px;
+}
+
+.app-container {
+  padding-top: 30px;
+}
+
+h1 {
+  font-size: 55px;
+  line-height: 1.3em;
+  margin: 0; }
+
+.page h1 {
+  font-size: 42px; }
+
+h2 {
+  font-size: 50px;
+  margin-top: 0; }
+
+h3 {
+  font-size: 24px; }
+
+p {
+  font-size: 16px;
+  line-height: 1.6em; }
+
+a {
+  color: #000;
+}
+
+a:hover, a:visited, a:link, a:active {
+  text-decoration: none;
+}
+
+.error {
+  color: red;
+  font-size: 16px;
+}
+
+.progress.active .progress-bar {
+  -webkit-transition: none !important;
+  transition: none !important;
+  background-color: #fD4c57;
+}
+
+.page header {
+  margin-bottom: 70px; }
+  .page header h1 {
+    line-height: 1em;
+    margin-bottom: 10px; }
+  .page header .sub-heading {
+    color: #848484;
+    font-size: 28px;
+    margin-bottom: 30px; }
+  .page header p {
+    color: #848484;
+    font-size: 18px;
+    width: 50%; }
+
+.ellipsis {
+  text-overflow: ellipsis;
+  /* Required for text-overflow to do anything */
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+/*--------------------------------------------------------------
+02. Buttons
+--------------------------------------------------------------*/
+.btn {
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border-radius: 3px;
+  transition: all ease-in-out 300ms;
+  -webkit-transition: all ease-in-out 300ms; }
+
+.btn {
+  background-color: #bdc3c7;
+  color: #fff;
+  padding: 14px 28px;
+  border: none; }
+  .btn:hover {
+    background-color: #fff;
+    color: #bdc3c7;
+    -webkit-box-shadow: 0 0 0 1px #bdc3c7;
+    box-shadow: 0 0 0 1px #bdc3c7; }
+
+.btn-default {
+  background-color: #fD4c57;
+  color: #fff;
+  padding: 14px 28px;
+  outline: none !important;
+  border: none;}
+  .btn-default:hover, .btn-default:focus {
+    background-color: #fff;
+    color: #2b2b2b;
+    -webkit-box-shadow: 0 0 0 1px #fD4c57;
+    box-shadow: 0 0 0 1px #fD4c57; }
+
+.btn-default.disabled {
+  color: #fff; }
+
+.btn-default.disabled:hover {
+  background-color: #fD4c57;
+  opacity: 0.8; }
+
+.btn-border {
+  background-color: transparent;
+  font-size: 11px;
+  border: 1px solid #848484;
+  padding: 10px 20px; }
+  .btn-border:hover {
+    background-color: #848484;
+    color: #fff; }
+
+/*--------------------------------------------------------------
+04. Navigation
+--------------------------------------------------------------*/
+
+.nav-confirm {
+  padding-top: 60px;
+  position: relative;
+  z-index: 100; }
+
+
+.logo {
+  color: #2b2b2b;
+  font-size: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase; }
+  .logo:hover {
+    color: #2b2b2b;
+    text-decoration: none; }
+
+.nav>li>a {
+  padding-top: 3px;
+  padding-bottom: 3px;
+  color: #2b2b2b;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-transform: uppercase; }
+
+.navbar-toggle .icon-bar {
+  background-color: black;
+}
+
+/*--------------------------------------------------------------
+10. Contact
+--------------------------------------------------------------*/
+.contact {
+  padding-top: 25px; }
+  .contact .sub-section {
+    margin-top: 90px;
+    margin-bottom: 50px; }
+
+.contact-info {
+  background-color: #f8f8f8;
+  padding: 45px 45px 20px 45px; }
+  .contact-info p {
+    font-size: 16px;
+    line-height: 1.7em;
+    margin-bottom: 25px; }
+
+.contact-form p {
+  margin-bottom: 30px; }
+.contact-form label {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  margin-top: 15px;}
+.contact-form .row:first-child .row:first-child label:first-child {
+  margin-top: 0px;}
+.contact-form .form-control {
+  border-radius: 0;
+  border-color: #848484;
+  -webkit-box-shadow: none;
+  box-shadow: none; }
+.contact-form input {
+  height: 50px;
+  margin-bottom: 5px; }
+.contact-form button {
+  margin-top: 10px; }
+
+
+
+.contact-2 header {
+  text-align: center;
+  margin-bottom: 40px; }
+  .contact-2 header p {
+    margin-left: auto;
+    margin-right: auto; }
+.contact-2 .col-centered {
+  float: none!important;
+  margin: 0 auto;
+  vertical-align: top; }
+.contact-2 .contact-form {
+  width: 100%;
+  margin-top: 40px; }
+
+.contact-2-info {
+  background-color: #f8f8f8;
+  text-align: center;
+  padding: 30px;
+  height: 175px;
+  display: flex;
+  display: -webkit-flex; }
+  .contact-2-info .content {
+    margin: auto auto; }
+  .contact-2-info i {
+    color: #cecece;
+    font-size: 45px;
+    margin-bottom: 10px; }
+  .contact-2-info p {
+    font-size: 16px; }
+
+/*--------------------------------------------------------------
+10a. Intro
+--------------------------------------------------------------*/
+
+.intro {
+  padding-top: 25px; }
+  .intro .sub-section {
+    margin-top: 90px;
+    margin-bottom: 50px; }
+
+.intro .alert {
+  background-color: #fD4c57;
+  color: white;
+  display: block;
+  text-decoration: none;
+}
+
+.intro .alert:hover {
+  cursor: pointer;
+}
+
+.intro .alert i {
+  -webkit-appearance: none;
+  padding: 0;
+  cursor: pointer;
+  background: 0 0;
+  border: 0;
+  float: right;
+  font-size: 21px;
+  color: #fff;
+}
+
+.intro header {
+  text-align: center;
+  margin-bottom: 20px; }
+  .intro header p {
+    margin-left: auto;
+    margin-right: auto; }
+  .intro header .btn + .btn {
+    margin-left: 10px; }
+.intro .col-centered {
+  float: none!important;
+  margin: 0 auto;
+  vertical-align: top; }
+.intro .intro-form {
+  width: 100%;
+  margin-top: 20px;
+  min-height: 450px;
+}
+
+.intro .actions {
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.intro .actions button {
+  margin-right: 5px;
+}
+
+.intro .actions span.long {
+  display: block;
+}
+.intro .actions span.short {
+  display: none;
+}
+
+.intro-form p {
+  margin-bottom: 30px; }
+.intro-form label {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  margin-top: 15px;}
+.intro-form .row:first-child .row:first-child label:first-child {
+  margin-top: 0px;}
+.intro-form .form-control {
+  border-radius: 0;
+  border-color: #848484;
+  -webkit-box-shadow: none;
+  box-shadow: none; }
+.intro-form input {
+  height: 50px;
+  margin-bottom: 5px; }
+.intro-form button {
+  margin-top: 10px; }
+
+.intro-form input.intro-name {
+  margin-bottom: 0;
+  border-bottom-color: #cecece; }
+.intro-form input.intro-email {
+  border-top: none; }
+.intro-form button.intro-continue {
+  margin-top: 20px; }
+
+.intro-preview-form .btn-cancel {
+  margin-left: 10px; }
+.intro-preview-form .default-form {
+  margin-bottom: 20px; }
+
+.intro-confirm .new-intro-btns-container {
+  margin: 10px 10px 30px 10px; }
+.intro-confirm .btn-new-intro {
+  margin: 5px;
+  width: 350px; }
+
+.preview {
+  margin-bottom: 20px;
+}
+.preview {
+  margin-bottom: 20px;
+  background-color: #ecf0f1;
+  padding: 20px 20px;
+}
+.preview span {
+  font-size: 22px;
+}
+.preview span.link {
+  color: #3498db;
+}
+.preview span.message {
+  white-space: pre-wrap;
+}
+
+.import-contacts {
+  display: block;
+  margin-top: -15px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.react-autosuggest__container {
+  position: relative;
+}
+.react-autosuggest__suggestions-container {
+  display: none;
+}
+.react-autosuggest__suggestions-container--open {
+  display: block;
+  position: absolute;
+  margin-top: -1px;
+  top: 100%;
+  width: 100%;
+  max-height: 400px;
+  overflow-y: auto;
+  border: 1px solid #aaa;
+  background-color: #fff;
+  font-family: Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  z-index: 2;
+}
+.react-autosuggest__suggestions-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.react-autosuggest__suggestion {
+  cursor: pointer;
+  padding: 15px 20px;
+}
+.react-autosuggest__suggestion--highlighted {
+  background-color: #ddd;
+}
+
+/*--------------------------------------------------------------
+11. Forms
+--------------------------------------------------------------*/
+
+.default-form {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.default-form p {
+  margin-bottom: 30px; }
+.default-form label {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  margin-top: 15px;}
+.default-form .row:first-child .row:first-child label:first-child {
+  margin-top: 0px;}
+.default-form .form-control {
+  border-radius: 0;
+  border-color: #848484;
+  -webkit-box-shadow: none;
+  box-shadow: none; }
+.default-form input {
+  height: 50px;
+  margin-bottom: 5px; }
+.default-form .btn {
+  margin-top: 10px; }
+.default-form .btn-cancel {
+  margin-left: 10px; }
+
+/*--------------------------------------------------------------
+12. Introductions
+--------------------------------------------------------------*/
+
+.introductions {
+  margin-bottom: 20px;
+  background-color: #ecf0f1;
+  padding: 20px 20px;
+}
+
+.introductions span {
+  font-size: 22px;
+}
+.introductions span.label {
+  font-size: 12px;
+}
+.introductions a {
+  cursor: pointer;
+}
+.introductions .top div {
+  margin-top: 0;
+}
+
+.introductions .timeline {
+  margin-top: 10px;
+}
+
+.introductions .top-icon {
+  margin-top: 7px;
+}
+
+.introductions .top-icon i {
+  font-size: 20px;
+  color: #848484;
+}
+
+.introductions .row-link:hover {
+  cursor: pointer;
+}
+
+.introductions div:first-child:hover .top-icon i {
+  color: #fD4c57;
+}
+
+.introductions .divider {
+  margin-left: -20px;
+  margin-right: -20px;
+  margin-top: 12px;
+  margin-bottom: 20px;
+  padding-top: 1px;
+  background-color: #fff;
+}
+
+.introductions .intro-row {
+  /*margin-top: 10px;*/
+}
+
+.introductions .intro-row .last-timeline-entry span {
+  float: left;
+  text-align: left;
+  margin-top: 8px;
+  margin-right: 5px;
+  font-size: 20px;
+}
+
+.introductions .intro-row button, .introductions .intro-row a, .introductions .intro-row .label {
+  float: right;
+}
+
+/*--------------------------------------------------------------
+13. Stats - TODO Remove once Dashboard is implemented
+--------------------------------------------------------------*/
+
+.intro .stats {
+  margin-top: 75px;
+  text-align: center;
+}
+
+.intro .stats span {
+  font-size: 20px;
+  color: #000;
+}
+
+.intro .stats span.stat {
+  color: #fD4c57;
+  font-size: 42px;
+}
+
+.intro .stats > .row {
+  margin-bottom: 20px;
+  /*background-color: #ecf0f1;*/
+  padding: 20px 20px;
+}
+
+.intro .stats [class*="col-"] {
+  padding-top: 15px;
+  border-radius: 5px;
+  border: 1px solid transparent;
+}
+
+.intro .stats [class*="col-"]:hover {
+  background-color: #fff;
+  border-color: #fD4c57;
+}
+
+/*--------------------------------------------------------------
+14. Dashboard
+--------------------------------------------------------------*/
+
+.intro .dashboard {
+  margin-top: 60px;
+}
+
+.intro .dashboard .board {
+  margin-bottom: 30px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #EFF2F4;
+}
+
+.intro .dashboard .board .title {
+  margin-bottom: 10px;
+  font-size: 16px;
+  width: 100%;
+  display: inline-block;
+}
+
+.intro .dashboard .board .title-nav {
+  display:block;
+  width: 100%;
+}
+
+.intro .dashboard .board .title-nav .title-label {
+  float: left;
+  display: block;
+}
+
+.intro .dashboard .board .title-nav .title-action {
+  float: right;
+  display: block;
+  color: #fD4c57;
+}
+
+.intro .dashboard .board a:hover .title-nav .title-label,
+.intro .dashboard .board a:hover .title-nav .title-action {
+  color: #fD4c57;
+}
+
+.intro .dashboard .board .board-item {
+  display: inline-block;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.intro .dashboard .board .board-item span {
+  font-size: 14px;
+  /*text-transform: uppercase;*/
+}
+
+.intro .dashboard .board .board-item .value {
+ font-size: 20px;
+ padding-right: 5px;
+ /* To right-align stat values */
+ /*display: inline-block;
+ min-width: 60px;
+ text-align: right;*/
+}
+
+.intro .dashboard .board .board-item a {
+  border-bottom: 1px solid transparent;
+}
+
+.intro .dashboard .board .board-item a .value {
+  color: #fD4c57;
+}
+
+.intro .dashboard .board .board-item a:hover {
+  /*border-bottom: 1px solid #fD4c57;*/
+  color: #fD4c57;
+}
+
+.intro .dashboard .board.board-stats .board-item {
+  text-align: center;
+}
+
+.intro .dashboard .board.board-stats .rs-control {
+  margin: 0 auto;
+}
+
+.intro .dashboard .board.board-intros .board-item:nth-of-type(1) {
+  margin-top: 0px;
+}
+
+.intro .dashboard .board table thead th,
+.intro .dashboard .board table tbody td {
+  text-align: center;
+}
+
+.intro .dashboard .board table thead th:first-child,
+.intro .dashboard .board table tbody td:first-child {
+  text-align: left;
+}
+
+/*--------------------------------------------------------------
+15. Btn Select - see https://bootsnipp.com/snippets/GXagX
+--------------------------------------------------------------*/
+
+.btn-select {
+    position: relative;
+    padding: 0;
+    min-width: 180px;
+    width: 100%;
+    border-radius: 0;
+    margin-bottom: 20px;
+    font-size: 14px;
+    border: 1px solid #fD4c57;
+    background-color: #fD4c57;
+    border-color: #fD4c57;
+}
+
+.btn-select .btn-select-value {
+    padding: 6px 12px;
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 34px;
+    text-align: left;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    border-top: none !important;
+    border-bottom: none !important;
+    border-left: none !important;
+}
+
+.btn-select .btn-select-arrow {
+    float: right;
+    line-height: 20px;
+    padding: 6px 10px;
+    top: 0;
+}
+
+.btn-select ul {
+    display: none;
+    background-color: white;
+    color: black;
+    clear: both;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border-top: none !important;
+    position: absolute;
+    left: -1px;
+    right: -1px;
+    top: 33px;
+    z-index: 999;
+}
+
+.btn-select ul li {
+    padding: 3px 6px;
+    text-align: left;
+}
+
+.btn-select ul li:hover {
+    background-color: #f4f4f4;
+}
+
+.btn-select ul li.selected {
+    color: white;
+}
+
+/* Default Start */
+.btn-select.btn-default:hover, .btn-select.btn-default:active, .btn-select.btn-default.active {
+    border-color: #fD4c57;
+    color: #fff;
+}
+
+.btn-select.btn-default ul li.selected {
+    background-color: #fD4c57;
+}
+
+.btn-select.btn-default ul, .btn-select.btn-default .btn-select-value {
+    background-color: white;
+    border: #fD4c57 1px solid;
+}
+
+.btn-select.btn-default:hover, .btn-select.btn-default.active {
+    background-color: #fD4c57;
+}
+/* Default End */
+
+.btn-select.btn-select-light .btn-select-value {
+    background-color: white;
+    color: black;
+}
+
+/*--------------------------------------------------------------
+16. Labels
+--------------------------------------------------------------*/
+
+.label {
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border-radius: 3px;
+  color: #fff;
+  padding: 14px 28px;
+  border: 1px solid #5cb85c;
+  background-color: transparent;
+  color: #5cb85c;
+}
+
+.label-rejected {
+  /*background-color: #bdc3c7;*/
+  border: 1px solid #bdc3c7;
+  color: #bdc3c7;
+}
+
+/*--------------------------------------------------------------
+17. Footer
+--------------------------------------------------------------*/
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  /* Set the fixed height of the footer here */
+  height: 90px;
+  background-color: white;
+  text-align: center;
+}
+  footer a {
+    color: #2b2b2b; }
+  footer nav {
+    margin-bottom: 45px; }
+    footer nav a {
+      font-size: 16px;
+      padding-left: 15px;
+      padding-right: 15px;
+      transition: all ease-in-out 300ms;
+      -webkit-transition: all ease-in-out 300ms; }
+      footer nav a:hover {
+        text-decoration: none;
+        opacity: 0.7; }
+
+.copyright {
+  color: #848484;
+  font-size: 12px; }
+
+
+
+    /* vietnamese */
+    @font-face {
+      font-family: 'Muli';
+      font-style: normal;
+      font-weight: 300;
+      src: local('Muli Light'), local('Muli-Light'), url(https://fonts.gstatic.com/s/muli/v10/F1xemzW-ll-DS_cw7XzYlFKPGs1ZzpMvnHX-7fPOuAc.woff2) format('woff2');
+      unicode-range: U+0102-0103, U+1EA0-1EF9, U+20AB;
+    }
+    /* latin-ext */
+    @font-face {
+      font-family: 'Muli';
+      font-style: normal;
+      font-weight: 300;
+      src: local('Muli Light'), local('Muli-Light'), url(https://fonts.gstatic.com/s/muli/v10/849cjs-cyAZl3ZpQj1JaJlKPGs1ZzpMvnHX-7fPOuAc.woff2) format('woff2');
+      unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+    }
+    /* latin */
+    @font-face {
+      font-family: 'Muli';
+      font-style: normal;
+      font-weight: 300;
+      src: local('Muli Light'), local('Muli-Light'), url(https://fonts.gstatic.com/s/muli/v10/mls_29xz6YyJHsylG8hcCgLUuEpTyoUstqEm5AMlJo4.woff2) format('woff2');
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+    }
+    /* vietnamese */
+    @font-face {
+      font-family: 'Muli';
+      font-style: normal;
+      font-weight: 400;
+      src: local('Muli Regular'), local('Muli-Regular'), url(https://fonts.gstatic.com/s/muli/v10/tg9tUAlnncaBSUvJ5NYofRTbgVql8nDJpwnrE27mub0.woff2) format('woff2');
+      unicode-range: U+0102-0103, U+1EA0-1EF9, U+20AB;
+    }
+    /* latin-ext */
+    @font-face {
+      font-family: 'Muli';
+      font-style: normal;
+      font-weight: 400;
+      src: local('Muli Regular'), local('Muli-Regular'), url(https://fonts.gstatic.com/s/muli/v10/uw51sWa2VJFEFkdnqqMZ1RTbgVql8nDJpwnrE27mub0.woff2) format('woff2');
+      unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+    }
+    /* latin */
+    @font-face {
+      font-family: 'Muli';
+      font-style: normal;
+      font-weight: 400;
+      src: local('Muli Regular'), local('Muli-Regular'), url(https://fonts.gstatic.com/s/muli/v10/zscZFkjVRGyfQ_Pw-5exXPesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+    }
+    /* vietnamese */
+    @font-face {
+      font-family: 'Muli';
+      font-style: italic;
+      font-weight: 300;
+      src: local('Muli Light Italic'), local('Muli-LightItalic'), url(https://fonts.gstatic.com/s/muli/v10/G15Tq-QAo18i2r96I1Ml44X0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
+      unicode-range: U+0102-0103, U+1EA0-1EF9, U+20AB;
+    }
+    /* latin-ext */
+    @font-face {
+      font-family: 'Muli';
+      font-style: italic;
+      font-weight: 300;
+      src: local('Muli Light Italic'), local('Muli-LightItalic'), url(https://fonts.gstatic.com/s/muli/v10/0gL1YdoijNI33SW2fRDrb4X0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
+      unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+    }
+    /* latin */
+    @font-face {
+      font-family: 'Muli';
+      font-style: italic;
+      font-weight: 300;
+      src: local('Muli Light Italic'), local('Muli-LightItalic'), url(https://fonts.gstatic.com/s/muli/v10/Q5N_zd0042xOVES9NXt9QpBw1xU1rKptJj_0jans920.woff2) format('woff2');
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+    }
+    /* vietnamese */
+    @font-face {
+      font-family: 'Muli';
+      font-style: italic;
+      font-weight: 400;
+      src: local('Muli Italic'), local('Muli-Italic'), url(https://fonts.gstatic.com/s/muli/v10/cRBijjMEfY1p6JfqTo9cIX-_kf6ByYO6CLYdB4HQE-Y.woff2) format('woff2');
+      unicode-range: U+0102-0103, U+1EA0-1EF9, U+20AB;
+    }
+    /* latin-ext */
+    @font-face {
+      font-family: 'Muli';
+      font-style: italic;
+      font-weight: 400;
+      src: local('Muli Italic'), local('Muli-Italic'), url(https://fonts.gstatic.com/s/muli/v10/G_ZlRFQTBeSqIwAWw9aKjH-_kf6ByYO6CLYdB4HQE-Y.woff2) format('woff2');
+      unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+    }
+    /* latin */
+    @font-face {
+      font-family: 'Muli';
+      font-style: italic;
+      font-weight: 400;
+      src: local('Muli Italic'), local('Muli-Italic'), url(https://fonts.gstatic.com/s/muli/v10/YxNEAWILjDc466nftZdqXuvvDin1pK8aKteLpeZ5c0A.woff2) format('woff2');
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+    }
+
+@media only screen and (max-width: 768px) {
+
+  .logo {
+    float: left;
+    padding-top: 12px;
+    padding-left: 20px;
+  }
+
+  .page header .sub-heading {
+    font-size: 22px;
+  }
+
+  .introductions .top div {
+    margin-top: 10px;
+  }
+
+  footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .bio-container {
+    margin-top: -20px;
+  }
+
+  .nav-confirm {
+    padding-top: 10px;
+  }
+
+  .page h1 {
+    font-size: 40px;
+  }
+
+  .page header p {
+    color: #848484;
+    font-size: 18px;
+    width: 100%;
+  }
+
+  .contact {
+    padding-top: 0px;
+  }
+  .contact-2 header {
+    margin-bottom: 0px;
+  }
+
+  .contact-2 .contact-form {
+    margin-top: 0px;
+  }
+
+  .app-container {
+    padding-top: 0px;
+  }
+
+  .preview {
+    margin-bottom: 30px;
+  }
+
+  .preview span {
+    font-size: 16px;
+  }
+
+  .introductions span {
+    font-size: 18px;
+  }
+
+  .introductions .top-icon {
+    margin-top: 4px;
+  }
+
+  .introductions .top-icon i {
+    font-size: 16px;
+  }
+
+  .introductions .divider {
+    margin-bottom: 15px;
+  }
+
+  .introductions .intro-row .last-timeline-entry span {
+    margin-top: 0px;
+    font-size: 18px;
+  }
+
+  .introductions .intro-row button, .introductions .intro-row a, .introductions .intro-row .label {
+    margin-top: 10px;
+    float: left;
+  }
+
+  .intro .actions span.long {
+    display: none;
+  }
+  .intro .actions span.short {
+    display: block;
+  }
+
+}

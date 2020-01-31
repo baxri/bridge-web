@@ -1,0 +1,21 @@
+.rs-range-color {
+  background: #fD4c57;
+}
+.rs-path-color {
+  background: #ececec;
+}
+.rs-border {
+  border: none;
+}
+.rs-tooltip .val {
+  color: #000;
+  font-size: 25px;
+}
+.rs-tooltip .txt {
+  color: #000;
+  font-size: 14px;
+  /*text-transform: uppercase;*/
+}
+.rs-handle {
+    background-color: #fD4c57;
+}

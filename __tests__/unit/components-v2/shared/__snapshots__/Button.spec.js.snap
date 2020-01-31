@@ -1,0 +1,189 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Button /> have borderless 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Button
+    borderless={true}
+  >
+    Button
+  </Button>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "borderless": true,
+      "children": "Button",
+    },
+    "ref": null,
+    "rendered": "Button",
+    "type": Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "sc-bxivhb",
+        "isStatic": false,
+        "rules": Array [
+          "
+  background: ",
+          [Function],
+          ";
+  color: ",
+          [Function],
+          ";
+  text-align: center;
+  border: 1px solid ",
+          [Function],
+          ";
+  border-radius: ",
+          [Function],
+          ";
+  min-width: ",
+          [Function],
+          ";
+  height: ",
+          [Function],
+          ";
+  font-size: ",
+          [Function],
+          ";
+  opacity: ",
+          [Function],
+          ";
+  padding: ",
+          [Function],
+          ";
+  width: ",
+          [Function],
+          ";
+  font-style: normal;
+
+  &:active {
+    background: ",
+          [Function],
+          ";
+  }
+",
+        ],
+      },
+      "displayName": "styled.button",
+      "foldedComponentIds": Array [],
+      "render": [Function],
+      "styledComponentId": "sc-bxivhb",
+      "target": "button",
+      "toString": [Function],
+      "usesTheme": false,
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    },
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "borderless": true,
+        "children": "Button",
+      },
+      "ref": null,
+      "rendered": "Button",
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "sc-bxivhb",
+          "isStatic": false,
+          "rules": Array [
+            "
+  background: ",
+            [Function],
+            ";
+  color: ",
+            [Function],
+            ";
+  text-align: center;
+  border: 1px solid ",
+            [Function],
+            ";
+  border-radius: ",
+            [Function],
+            ";
+  min-width: ",
+            [Function],
+            ";
+  height: ",
+            [Function],
+            ";
+  font-size: ",
+            [Function],
+            ";
+  opacity: ",
+            [Function],
+            ";
+  padding: ",
+            [Function],
+            ";
+  width: ",
+            [Function],
+            ";
+  font-style: normal;
+
+  &:active {
+    background: ",
+            [Function],
+            ";
+  }
+",
+          ],
+        },
+        "displayName": "styled.button",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "sc-bxivhb",
+        "target": "button",
+        "toString": [Function],
+        "usesTheme": false,
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      },
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+}
+`;

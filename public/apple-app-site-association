@@ -1,0 +1,19 @@
+{
+    "applinks": {
+        "apps": [],
+        "details": [
+            {
+                "appID": "L9DC7LHXMN.brdg.app",
+                "paths": ["*"]
+            },
+            {
+                "appID": "L9DC7LHXMN.brdg.app.beta",
+                "paths": ["*"]
+            },
+            {
+                "appID": "L9DC7LHXMN.brdg.app.debug",
+                "paths": ["*"]
+            }
+        ]
+    }
+}

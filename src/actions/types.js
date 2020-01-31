@@ -1,0 +1,18 @@
+//======================
+// Share Actions
+//======================
+export const SHARE_SUCCESS = 'SHARE_SUCCESS',
+  SHARE_GET_SUCCESS = 'SHARE_GET_SUCCESS',
+  SHARE_ACCEPT_SUCCESS = 'SHARE_ACCEPT_SUCCESS',
+  SHARE_ERROR = 'SHARE_ERROR',
+  SHARE_RESET_MESSAGE = 'SHARE_RESET_MESSAGE',
+  SHARE_RESET_ERROR = 'SHARE_RESET_ERROR'
+
+//======================
+// Filter Actions
+//======================
+export const SET_INTRODUCTION_FILTER = 'FILTER_SET_INTRODUCTION'
+export const RESET_INTRODUCTION_FILTER = 'FILTER_RESET_INTRODUCTION'
+
+export const SET_CONTACT_FILTER = 'FILTER_SET_CONTACT'
+export const RESET_CONTACT_FILTER = 'FILTER_RESET_CONTACT'

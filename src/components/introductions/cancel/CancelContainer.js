@@ -1,0 +1,57 @@
+import React, { Component } from 'react'
+import PropTypes from 'prop-types'
+import { connect } from 'react-redux'
+import queryString from 'query-string'
+
+import extractFirstName from 'utils/extractFirstName'
+import {
+  cancelIntroduction,
+  fetchIntroductionByInitializeToken,
+} from 'intropath-core/actions/introduction'
+import CancelRejectForm from '../CancelRejectForm/CancelRejectForm'
+
+const propTypes = {
+  cancelIntroduction: PropTypes.func.isRequired,
+}
+
+class CancelContainer extends Component {
+  componentDidMount() {
+    const query = queryString.parse(this.props.location.search)
+    this.props.fetchIntroductionByInitializeToken(query.token)
+  }
+
+  render() {
+    const { intro } = this.props
+    const brokerFirstName = intro ? extractFirstName(intro.broker) : ''
+
+    return (
+      <CancelRejectForm
+        intro={intro}
+        brokerFirstName={brokerFirstName}
+        location={this.props.location}
+        formType="cancel"
+        match={this.props.match}
+        sendRequest={this.props.cancelIntroduction}
+        message={this.props.message}
+        loading={this.props.loading}
+        errorMessage={this.props.errorMessage}
+      />
+    )
+  }
+}
+
+CancelContainer.propTypes = propTypes
+
+function mapStateToProps(state) {
+  return {
+    errorMessage: state.introduction.error,
+    loading: state.introduction.loading,
+    message: state.introduction.message,
+    intro: state.introduction.intro,
+  }
+}
+
+export default connect(
+  mapStateToProps,
+  { fetchIntroductionByInitializeToken, cancelIntroduction }
+)(CancelContainer)

@@ -1,0 +1,341 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://npmcdn.com/react-bootstrap-table/dist/react-bootstrap-table.min.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/round-slider@1.3/dist/roundslider.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./slider.css?v=2">
+
+    <link rel="stylesheet" href="app.css">
+    <!--
+      Notice the use of %PUBLIC_URL% in the tag above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>Intro Path</title>
+  </head>
+
+  <body>
+
+    <!-- See src/components/template/header.js and src/components/template/nav.js for current code -->
+    <nav class="nav-confirm">
+      <div class="container">
+        <!-- <div class="row">
+          <div class="col-xs-6">
+            <a class="current-parent logo">INTROPATH</a>
+          </div>
+          <div class="col-xs-6">
+          </div>
+        </div> -->
+
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="logo" href="/">INTROPATH</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="nav-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a class="logo" href="/profile">Intros</a>
+            </li>
+            <li>
+              <a class="logo" href="/profile">Profile</a>
+            </li>
+            <li>
+              <a class="logo" href="/logout">Logout</a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </nav>
+
+    <!-- See src/components/app.js -->
+    <div class="container app-container">
+
+      <div class="page intro">
+          <div class="container">
+
+            <header class="intro-start">
+              <p class="sub-heading">
+                Ready to make that quick intro?<br/>
+              </p>
+              <button class="btn btn-default btn-intro-start">New Intro</button>
+            </header>
+
+            <div class="col-md-9 col-centered dashboard">
+
+              <div class="col-md-12 col-xs-12 board-wrapper">
+                  <div class="col-md-4 col-xs-12">
+                    <div class="board">
+                      <div class="title">Top Priority Intros</div>
+                      <div class="board-item first">
+                        <a href="/introductions">
+                          <span><span class="value">2</span>Intros Waiting Confirmation</span>
+                        </a>
+                      </div>
+                      <div class="board-item">
+                        <a href="/introductions">
+                          <span><span class="value">3</span>Intros Without Reply</span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-4 col-xs-12">
+                    <div class="board">
+                      <div class="title">Stats</div>
+                      <div id="slider"></div>
+                      <div class="board-item">
+                        <span><span class="value">48</span>People Connected</span>
+                      </div>
+                      <div class="board-item">
+                        <span><span class="value">67</span>Intros Initiated</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-4 col-xs-12">
+                    <div class="board board-list">
+                      <div class="title">Recent Contacts</div>
+                      <div class="board-item">
+                        <a href="/contact/1">
+                          <span>John Doe</span>
+                        </a>
+                      </div>
+                      <div class="board-item">
+                        <a href="/contact/2">
+                          <span>Supriya</span>
+                        </a>
+                      </div>
+                      <div class="board-item">
+                        <a href="/contact/3">
+                          <span>Andy Bolton</span>
+                        </a>
+                      </div>
+                      <div class="board-item">
+                        <a href="/contact/4">
+                          <span>Meera</span>
+                        </a>
+                      </div>
+                      <div class="board-item">
+                        <a href="/contact/5">
+                          <span>John Spindler</span>
+                        </a>
+                      </div>
+                      <div class="board-item">
+                        <a href="/contact/6">
+                          <span>Davy Jones</span>
+                        </a>
+                      </div>
+                      <div class="board-item">
+                        <a href="/contact/7">
+                          <span>Dr Hendricks</span>
+                        </a>
+                      </div>
+                      <div class="board-item">
+                        <a href="/contact/8">
+                          <span>Babe Ruth</span>
+                        </a>
+                      </div>
+                      <div class="board-item">
+                        <a href="/contact/9">
+                          <span>Kolo Toure</span>
+                        </a>
+                      </div>
+                      <div class="board-item">
+                        <a href="/contact/10">
+                          <span>James Preston</span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+
+              <div class="col-md-12 col-xs-12 board-wrapper">
+                <div class="board board-intro-activity">
+                  <div class="title">
+                    <div class="title-nav">
+                      <div class="title-label">Intro Activity</div>
+                    </div>
+                  </div>
+
+                  <div class="board-item first timeline">
+                    <span>10:22 AM - 18 Apr 2018</span>
+                  </div>
+                  <div class="board-item">
+                    <a href="/introductions/1">
+                      <span>Opt-in email approved by <b>Hugo Ramadier</b> to intro them to <b>Reetu Kainulainen</b></span>
+                    </a>
+                  </div>
+                  <div class="board-item">
+                    <a href="/introductions/2">
+                      <span>Intro feedback email sent to <b>Bertier Luyt</b> who was intro'd to <b>Marcin</b></span>
+                    </a>
+                  </div>
+                  <div class="board-item">
+                    <a href="/introductions/3">
+                      <span>Opt-in email approved by <b>Hugo Ramadier</b> to intro them to <b>Peter O'Malley</b></span>
+                    </a>
+                  </div>
+
+                  <div class="board-item timeline">
+                    <span>10:07 AM - 18 Apr 2018</span>
+                  </div>
+                  <div class="board-item">
+                    <a href="/introductions/4">
+                      <span>Automatic email reminder sent to <b>Zoe Schlag</b> to accept intro'ing them to <b>Kim Moelholm</b></span>
+                    </a>
+                  </div>
+                  <div class="board-item timeline">
+                    <span>9:45 AM - 18 Apr 2018</span>
+                  </div>
+                  <div class="board-item">
+                    <a href="/introductions/3">
+                      <span>Opt-in email opened by <b>Hugo Ramadier</b> to intro them to <b>Peter O'Malley</b></span>
+                    </a>
+                  </div>
+                  <div class="board-item">
+                    <a href="/introductions/1">
+                      <span>Opt-in email opened by <b>Hugo Ramadier</b> to intro them to <b>Reetu Kainulainen</b></span>
+                    </a>
+                  </div>
+
+                  <div class="board-item timeline">
+                    <span>9:34 AM - 18 Apr 2018</span>
+                  </div>
+                  <div class="board-item">
+                    <a href="/introductions/3">
+                      <span>Opt-in email sent to <b>Hugo Ramadier</b> to intro them to <b>Peter O'Malley</b></span>
+                    </a>
+                  </div>
+                  <div class="board-item">
+                    <a href="/introductions/1">
+                      <span>Opt-in email sent to <b>Hugo Ramadier</b> to intro them to <b>Reetu Kainulainen</b></span>
+                    </a>
+                  </div>
+
+                  <div class="board-item timeline">
+                    <span>7:28 AM - 18 Apr 2018</span>
+                  </div>
+                  <div class="board-item">
+                    <a href="/introductions/5">
+                      <span>Automatic email reminder sent to <b>Konstantin Mehl</b> to intro them to <b>Videesha Kunkulagunta</b></span>
+                    </a>
+                  </div>
+
+                  <div class="board-item timeline">
+                    <span>11:07 PM - 17 Apr 2018</span>
+                  </div>
+                  <div class="board-item">
+                    <a href="/introductions/6">
+                      <span>Opt-in email approved by <b>John P O'Malley</b> to intro them to <b>Ganga Kumar</b></span>
+                    </a>
+                  </div>
+
+                  <div class="board-item timeline">
+                    <span>10:47 AM - 17 Apr 2018</span>
+                  </div>
+                  <div class="board-item">
+                    <a href="/introductions/7">
+                      <span><b>Caoimhe Keogan</b> accepted intro to <b>Jenny Herald</b></span>
+                    </a>
+                  </div>
+                  <div class="board-item">
+                    <a href="/introductions/7">
+                      <span>Email opened by <b>Caoimhe Keogan</b> to accept intro'ing them to <b>Jenny Herald</b></span>
+                    </a>
+                  </div>
+
+                  <div class="board-item timeline">
+                    <span>10:22 PM - 17 Apr 2018</span>
+                  </div>
+                  <div class="board-item">
+                    <a href="/introductions/7">
+                      <span>Automatic email reminder sent to <b>Caoimhe Keogan</b> to accept intro'ing them to <b>Jenny Herald</b></span>
+                    </a>
+                  </div>
+
+                  <div class="board-item timeline">
+                    <span>5:16 PM - 17 Apr 2018</span>
+                  </div>
+                  <div class="board-item">
+                    <a href="/introductions/8">
+                      <span>Intro confirmed between <b>Sam O'Connor</b> and <b>Videesha Kunkulagunta</b></span>
+                    </a>
+                  </div>
+
+                  <div class="board-item timeline">
+                    <span>4:38 PM - 17 Apr 2018</span>
+                  </div>
+                  <div class="board-item">
+                    <a href="/introductions/8">
+                      <span><b>Andy Zoltan</b> said that the intro to Meera was great!</span>
+                    </a>
+                  </div>
+                </div>
+
+                <div class="board-footer">
+                  <button class="btn btn-default">Load More</button>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+
+    </div>
+
+    <!-- See src/components/template/footer.js -->
+    <div>
+      <div style="display: block; padding: 20px; height: 120px; width: 100%" />
+      <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <p class="copyright">Copyright © 2017, IntroPath. All Rights Reserved.</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/round-slider@1.3/dist/roundslider.min.js"></script>
+    <script>
+        $(function() {
+            $("#slider").roundSlider({
+              sliderType: "min-range",
+              editableTooltip: false,
+              readOnly: true,
+              radius: 80,
+              width: 22,
+              value: 57,
+              startAngle: 90,
+
+              tooltipFormat: function (e) {
+                var data = "<div class='val'>"+e.value+"%</div>"+
+                            "<div class='txt'>Intros<br/>Completed</div>";
+                return data;
+              }
+            });
+        });
+    </script>
+
+  </body>
+</html>

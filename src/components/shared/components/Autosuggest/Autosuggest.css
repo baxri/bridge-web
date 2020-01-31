@@ -1,0 +1,23 @@
+.react-autosuggest__suggestion-match {
+  background-color: #fcf8e3;
+}
+.react-autosuggest__suggestions-list li:first-child{
+  padding-top: 10px; 
+}
+
+.react-autosuggest__suggestions-list li{
+ padding-left: 0;
+ list-style: none;
+ padding: 10px 20px;
+ cursor: pointer;
+}
+
+ul.react-autosuggest__suggestions-list {
+  border-top: none !important;
+  border: 1px solid #d4d4d4 !important;
+  padding: 0px;
+}
+
+.react-autosuggest__suggestion--highlighted {
+  background-color: #d9d9d9 !important;
+}

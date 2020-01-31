@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "name": "Braeden Olson",
+    "profile_pic_url": "https://s3.amazonaws.com/uifaces/faces/twitter/theonlyzeke/128.jpg",
+    "email": "braeden@olson.com",
+    "created_at": "2018-12-11T10:04:40.902Z"
+  },
+  {
+    "id": 2,
+    "name": "Kanye West",
+    "profile_pic_url": "https://s3.amazonaws.com/uifaces/faces/twitter/theonlyzeke/128.jpg",
+    "email": "kanye@west.com",
+    "created_at": "2018-11-11T10:04:40.902Z"
+  }
+]

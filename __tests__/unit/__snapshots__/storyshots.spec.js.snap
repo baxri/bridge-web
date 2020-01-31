@@ -1,0 +1,5872 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots COMPONENTS|Activitiy Default 1`] = `
+.c0 {
+  border-bottom: 1px solid #dfe1e7;
+  min-height: 80px;
+  color: #000000;
+  padding: 12px 12px 18px 12px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 14px;
+}
+
+.c1 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  opacity: 0.42;
+  font-size: 14px;
+}
+
+.c2 {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+}
+
+.c2 a,
+.c2 a:hover {
+  color: #000000;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+<div
+  className="story-container"
+>
+  <div
+    className="container"
+    style={
+      Object {
+        "backgroundColor": "#ffffff",
+      }
+    }
+  >
+    <div
+      className="c0"
+    >
+      <div
+        className="c1"
+      >
+        <div>
+          04.09
+        </div>
+        <div>
+          1: 27 PM
+        </div>
+      </div>
+      <div
+        className="c2"
+      >
+        <a
+          href="/introductions/c73632ec-c6e9-4c67-9ced-01cea6be97e7"
+          onClick={[Function]}
+        >
+          <div
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "Opt-in email sent to <b>Test 1</b> to intro them to <b>Test 2</b>",
+              }
+            }
+            style={
+              Object {
+                "marginBottom": 10,
+              }
+            }
+          />
+        </a>
+        <a
+          href="/introductions/c73632ec-c6e9-4c67-9ced-01cea6be97e7"
+          onClick={[Function]}
+        >
+          <div
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "Opt-in email approved by <b>Test 1</b> to intro them to <b>Test 2</b>",
+              }
+            }
+            style={
+              Object {
+                "marginBottom": 10,
+              }
+            }
+          />
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots COMPONENTS|Avatar Default 1`] = `
+.c0 {
+  position: relative;
+}
+
+.c1 {
+  font-family: Roboto,sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  position: relative;
+  text-transform: uppercase;
+  -webkit-flex: 0;
+  -ms-flex: 0;
+  flex: 0;
+  min-width: 30px;
+  min-height: 30px;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  overflow: hidden;
+  color: black;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  white-space: nowrap;
+  background-color: #BAE781;
+}
+
+<div
+  className="story-container"
+>
+  <div
+    className="c0"
+  >
+    <div
+      className="c1"
+      color="#BAE781"
+      fontSize="15px"
+      size="30px"
+    >
+      J
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots COMPONENTS|Button Default 1`] = `
+.c0 {
+  background: #0038FF;
+  color: white;
+  text-align: center;
+  border: 1px solid #0038FF;
+  border-radius: 8px;
+  min-width: 80px;
+  height: 48px;
+  font-size: 16px;
+  opacity: 1;
+  padding: 0 24px;
+  width: unset;
+  font-style: normal;
+}
+
+.c0:active {
+  background: linear-gradient(0deg,rgba(0,0,0,0.1),rgba(0,0,0,0.1)),#0038FF;
+}
+
+.c1 {
+  background: #E6E8ED;
+  color: #0D1531;
+  text-align: center;
+  border: 1px solid #E6E8ED;
+  border-radius: 8px;
+  min-width: 80px;
+  height: 48px;
+  font-size: 16px;
+  opacity: 1;
+  padding: 0 24px;
+  width: unset;
+  font-style: normal;
+}
+
+.c1:active {
+  background: linear-gradient(0deg,rgba(0,0,0,0.1),rgba(0,0,0,0.1)),#E6E8ED;
+}
+
+.c2 {
+  background: #E13535;
+  color: white;
+  text-align: center;
+  border: 1px solid #E13535;
+  border-radius: 8px;
+  min-width: 80px;
+  height: 48px;
+  font-size: 16px;
+  opacity: 1;
+  padding: 0 24px;
+  width: unset;
+  font-style: normal;
+}
+
+.c2:active {
+  background: linear-gradient(0deg,rgba(0,0,0,0.1),rgba(0,0,0,0.1)),#E13535;
+}
+
+.c3 {
+  background: white;
+  color: #0038FF;
+  text-align: center;
+  border: 1px solid #0038FF;
+  border-radius: 8px;
+  min-width: 80px;
+  height: 48px;
+  font-size: 16px;
+  opacity: 1;
+  padding: 0 24px;
+  width: unset;
+  font-style: normal;
+}
+
+.c3:active {
+  background: linear-gradient(0deg,rgba(0,0,0,0.1),rgba(0,0,0,0.1)),white;
+}
+
+.c4 {
+  background: white;
+  color: #0D1531;
+  text-align: center;
+  border: 1px solid #B3B7C4;
+  border-radius: 8px;
+  min-width: 80px;
+  height: 48px;
+  font-size: 16px;
+  opacity: 1;
+  padding: 0 24px;
+  width: unset;
+  font-style: normal;
+}
+
+.c4:active {
+  background: linear-gradient(0deg,rgba(0,0,0,0.1),rgba(0,0,0,0.1)),white;
+}
+
+.c5 {
+  background: white;
+  color: #E13535;
+  text-align: center;
+  border: 1px solid #E13535;
+  border-radius: 8px;
+  min-width: 80px;
+  height: 48px;
+  font-size: 16px;
+  opacity: 1;
+  padding: 0 24px;
+  width: unset;
+  font-style: normal;
+}
+
+.c5:active {
+  background: linear-gradient(0deg,rgba(0,0,0,0.1),rgba(0,0,0,0.1)),white;
+}
+
+<div
+  className="story-container"
+>
+  <div
+    style={
+      Object {
+        "textAlign": "center",
+      }
+    }
+  >
+    <button
+      className="c0"
+    >
+      Ok
+    </button>
+     
+    <br />
+    <br />
+    <button
+      className="c1"
+    >
+      Ok
+    </button>
+     
+    <br />
+    <br />
+    <button
+      className="c2"
+    >
+      Ok
+    </button>
+     
+    <br />
+    <br />
+    <button
+      alt={true}
+      className="c3"
+    >
+      Ok
+    </button>
+     
+    <br />
+    <br />
+    <button
+      alt={true}
+      className="c4"
+    >
+      Ok
+    </button>
+     
+    <br />
+    <br />
+    <button
+      alt={true}
+      className="c5"
+    >
+      Ok
+    </button>
+     
+    <br />
+    <br />
+  </div>
+</div>
+`;
+
+exports[`Storyshots COMPONENTS|Button Disabled 1`] = `
+.c0 {
+  background: #0038FF;
+  color: white;
+  text-align: center;
+  border: 1px solid #0038FF;
+  border-radius: 8px;
+  min-width: 80px;
+  height: 48px;
+  font-size: 16px;
+  opacity: 0.3;
+  padding: 0 24px;
+  width: unset;
+  font-style: normal;
+}
+
+.c0:active {
+  background: linear-gradient(0deg,rgba(0,0,0,0.1),rgba(0,0,0,0.1)),#0038FF;
+}
+
+.c1 {
+  background: #E6E8ED;
+  color: #0D1531;
+  text-align: center;
+  border: 1px solid #E6E8ED;
+  border-radius: 8px;
+  min-width: 80px;
+  height: 48px;
+  font-size: 16px;
+  opacity: 0.3;
+  padding: 0 24px;
+  width: unset;
+  font-style: normal;
+}
+
+.c1:active {
+  background: linear-gradient(0deg,rgba(0,0,0,0.1),rgba(0,0,0,0.1)),#E6E8ED;
+}
+
+.c2 {
+  background: #E13535;
+  color: white;
+  text-align: center;
+  border: 1px solid #E13535;
+  border-radius: 8px;
+  min-width: 80px;
+  height: 48px;
+  font-size: 16px;
+  opacity: 0.3;
+  padding: 0 24px;
+  width: unset;
+  font-style: normal;
+}
+
+.c2:active {
+  background: linear-gradient(0deg,rgba(0,0,0,0.1),rgba(0,0,0,0.1)),#E13535;
+}
+
+.c3 {
+  background: white;
+  color: #0038FF;
+  text-align: center;
+  border: 1px solid #0038FF;
+  border-radius: 8px;
+  min-width: 80px;
+  height: 48px;
+  font-size: 16px;
+  opacity: 0.3;
+  padding: 0 24px;
+  width: unset;
+  font-style: normal;
+}
+
+.c3:active {
+  background: linear-gradient(0deg,rgba(0,0,0,0.1),rgba(0,0,0,0.1)),white;
+}
+
+.c4 {
+  background: white;
+  color: #0D1531;
+  text-align: center;
+  border: 1px solid #B3B7C4;
+  border-radius: 8px;
+  min-width: 80px;
+  height: 48px;
+  font-size: 16px;
+  opacity: 0.3;
+  padding: 0 24px;
+  width: unset;
+  font-style: normal;
+}
+
+.c4:active {
+  background: linear-gradient(0deg,rgba(0,0,0,0.1),rgba(0,0,0,0.1)),white;
+}
+
+.c5 {
+  background: white;
+  color: #E13535;
+  text-align: center;
+  border: 1px solid #E13535;
+  border-radius: 8px;
+  min-width: 80px;
+  height: 48px;
+  font-size: 16px;
+  opacity: 0.3;
+  padding: 0 24px;
+  width: unset;
+  font-style: normal;
+}
+
+.c5:active {
+  background: linear-gradient(0deg,rgba(0,0,0,0.1),rgba(0,0,0,0.1)),white;
+}
+
+<div
+  className="story-container"
+>
+  <div
+    style={
+      Object {
+        "textAlign": "center",
+      }
+    }
+  >
+    <button
+      className="c0"
+      disabled={true}
+    >
+      Ok
+    </button>
+     
+    <br />
+    <br />
+    <button
+      className="c1"
+      disabled={true}
+    >
+      Ok
+    </button>
+     
+    <br />
+    <br />
+    <button
+      className="c2"
+      disabled={true}
+    >
+      Ok
+    </button>
+     
+    <br />
+    <br />
+    <button
+      alt={true}
+      className="c3"
+      disabled={true}
+    >
+      Ok
+    </button>
+     
+    <br />
+    <br />
+    <button
+      alt={true}
+      className="c4"
+      disabled={true}
+    >
+      Ok
+    </button>
+     
+    <br />
+    <br />
+    <button
+      alt={true}
+      className="c5"
+      disabled={true}
+    >
+      Ok
+    </button>
+     
+    <br />
+    <br />
+  </div>
+</div>
+`;
+
+exports[`Storyshots COMPONENTS|Button Full width 1`] = `
+.c0 {
+  background: #0038FF;
+  color: white;
+  text-align: center;
+  border: 1px solid #0038FF;
+  border-radius: 8px;
+  min-width: 80px;
+  height: 48px;
+  font-size: 16px;
+  opacity: 1;
+  padding: 0 24px;
+  width: 100%;
+  font-style: normal;
+}
+
+.c0:active {
+  background: linear-gradient(0deg,rgba(0,0,0,0.1),rgba(0,0,0,0.1)),#0038FF;
+}
+
+.c1 {
+  background: #E6E8ED;
+  color: #0D1531;
+  text-align: center;
+  border: 1px solid #E6E8ED;
+  border-radius: 8px;
+  min-width: 80px;
+  height: 48px;
+  font-size: 16px;
+  opacity: 1;
+  padding: 0 24px;
+  width: 100%;
+  font-style: normal;
+}
+
+.c1:active {
+  background: linear-gradient(0deg,rgba(0,0,0,0.1),rgba(0,0,0,0.1)),#E6E8ED;
+}
+
+.c2 {
+  background: #E13535;
+  color: white;
+  text-align: center;
+  border: 1px solid #E13535;
+  border-radius: 8px;
+  min-width: 80px;
+  height: 48px;
+  font-size: 16px;
+  opacity: 1;
+  padding: 0 24px;
+  width: 100%;
+  font-style: normal;
+}
+
+.c2:active {
+  background: linear-gradient(0deg,rgba(0,0,0,0.1),rgba(0,0,0,0.1)),#E13535;
+}
+
+.c3 {
+  background: white;
+  color: #0038FF;
+  text-align: center;
+  border: 1px solid #0038FF;
+  border-radius: 8px;
+  min-width: 80px;
+  height: 48px;
+  font-size: 16px;
+  opacity: 1;
+  padding: 0 24px;
+  width: 100%;
+  font-style: normal;
+}
+
+.c3:active {
+  background: linear-gradient(0deg,rgba(0,0,0,0.1),rgba(0,0,0,0.1)),white;
+}
+
+.c4 {
+  background: white;
+  color: #0D1531;
+  text-align: center;
+  border: 1px solid #B3B7C4;
+  border-radius: 8px;
+  min-width: 80px;
+  height: 48px;
+  font-size: 16px;
+  opacity: 1;
+  padding: 0 24px;
+  width: 100%;
+  font-style: normal;
+}
+
+.c4:active {
+  background: linear-gradient(0deg,rgba(0,0,0,0.1),rgba(0,0,0,0.1)),white;
+}
+
+.c5 {
+  background: white;
+  color: #E13535;
+  text-align: center;
+  border: 1px solid #E13535;
+  border-radius: 8px;
+  min-width: 80px;
+  height: 48px;
+  font-size: 16px;
+  opacity: 1;
+  padding: 0 24px;
+  width: 100%;
+  font-style: normal;
+}
+
+.c5:active {
+  background: linear-gradient(0deg,rgba(0,0,0,0.1),rgba(0,0,0,0.1)),white;
+}
+
+<div
+  className="story-container"
+>
+  <div
+    style={
+      Object {
+        "textAlign": "center",
+      }
+    }
+  >
+    <button
+      className="c0"
+    >
+      Ok
+    </button>
+     
+    <br />
+    <br />
+    <button
+      className="c1"
+    >
+      Ok
+    </button>
+     
+    <br />
+    <br />
+    <button
+      className="c2"
+    >
+      Ok
+    </button>
+     
+    <br />
+    <br />
+    <button
+      alt={true}
+      className="c3"
+    >
+      Ok
+    </button>
+     
+    <br />
+    <br />
+    <button
+      alt={true}
+      className="c4"
+    >
+      Ok
+    </button>
+     
+    <br />
+    <br />
+    <button
+      alt={true}
+      className="c5"
+    >
+      Ok
+    </button>
+     
+    <br />
+    <br />
+  </div>
+</div>
+`;
+
+exports[`Storyshots COMPONENTS|Button Loading 1`] = `
+.c0 {
+  background: #0038FF;
+  color: white;
+  text-align: center;
+  border: 1px solid #0038FF;
+  border-radius: 8px;
+  min-width: 80px;
+  height: 48px;
+  font-size: 16px;
+  opacity: 1;
+  padding: 0 24px;
+  width: unset;
+  font-style: normal;
+}
+
+.c0:active {
+  background: linear-gradient(0deg,rgba(0,0,0,0.1),rgba(0,0,0,0.1)),#0038FF;
+}
+
+.c1 {
+  background: #E6E8ED;
+  color: #0D1531;
+  text-align: center;
+  border: 1px solid #E6E8ED;
+  border-radius: 8px;
+  min-width: 80px;
+  height: 48px;
+  font-size: 16px;
+  opacity: 1;
+  padding: 0 24px;
+  width: unset;
+  font-style: normal;
+}
+
+.c1:active {
+  background: linear-gradient(0deg,rgba(0,0,0,0.1),rgba(0,0,0,0.1)),#E6E8ED;
+}
+
+.c2 {
+  background: #E13535;
+  color: white;
+  text-align: center;
+  border: 1px solid #E13535;
+  border-radius: 8px;
+  min-width: 80px;
+  height: 48px;
+  font-size: 16px;
+  opacity: 1;
+  padding: 0 24px;
+  width: unset;
+  font-style: normal;
+}
+
+.c2:active {
+  background: linear-gradient(0deg,rgba(0,0,0,0.1),rgba(0,0,0,0.1)),#E13535;
+}
+
+.c3 {
+  background: white;
+  color: #0038FF;
+  text-align: center;
+  border: 1px solid #0038FF;
+  border-radius: 8px;
+  min-width: 80px;
+  height: 48px;
+  font-size: 16px;
+  opacity: 1;
+  padding: 0 24px;
+  width: unset;
+  font-style: normal;
+}
+
+.c3:active {
+  background: linear-gradient(0deg,rgba(0,0,0,0.1),rgba(0,0,0,0.1)),white;
+}
+
+.c4 {
+  background: white;
+  color: #0D1531;
+  text-align: center;
+  border: 1px solid #B3B7C4;
+  border-radius: 8px;
+  min-width: 80px;
+  height: 48px;
+  font-size: 16px;
+  opacity: 1;
+  padding: 0 24px;
+  width: unset;
+  font-style: normal;
+}
+
+.c4:active {
+  background: linear-gradient(0deg,rgba(0,0,0,0.1),rgba(0,0,0,0.1)),white;
+}
+
+.c5 {
+  background: white;
+  color: #E13535;
+  text-align: center;
+  border: 1px solid #E13535;
+  border-radius: 8px;
+  min-width: 80px;
+  height: 48px;
+  font-size: 16px;
+  opacity: 1;
+  padding: 0 24px;
+  width: unset;
+  font-style: normal;
+}
+
+.c5:active {
+  background: linear-gradient(0deg,rgba(0,0,0,0.1),rgba(0,0,0,0.1)),white;
+}
+
+<div
+  className="story-container"
+>
+  <div
+    style={
+      Object {
+        "textAlign": "center",
+      }
+    }
+  >
+    <button
+      className="c0"
+    >
+      <div
+        className="css-0"
+      >
+        <div
+          className="css-5z81tc"
+        />
+        <div
+          className="css-1mmt4g4"
+        />
+        <div
+          className="css-5z81tc"
+        />
+      </div>
+    </button>
+     
+    <br />
+    <br />
+    <button
+      className="c1"
+    >
+      <div
+        className="css-0"
+      >
+        <div
+          className="css-ozq6zu"
+        />
+        <div
+          className="css-1yl6cg5"
+        />
+        <div
+          className="css-ozq6zu"
+        />
+      </div>
+    </button>
+     
+    <br />
+    <br />
+    <button
+      className="c2"
+    >
+      <div
+        className="css-0"
+      >
+        <div
+          className="css-5z81tc"
+        />
+        <div
+          className="css-1mmt4g4"
+        />
+        <div
+          className="css-5z81tc"
+        />
+      </div>
+    </button>
+     
+    <br />
+    <br />
+    <button
+      alt={true}
+      className="c3"
+    >
+      <div
+        className="css-0"
+      >
+        <div
+          className="css-1f0ykbc"
+        />
+        <div
+          className="css-lmqd3b"
+        />
+        <div
+          className="css-1f0ykbc"
+        />
+      </div>
+    </button>
+     
+    <br />
+    <br />
+    <button
+      alt={true}
+      className="c4"
+    >
+      <div
+        className="css-0"
+      >
+        <div
+          className="css-ozq6zu"
+        />
+        <div
+          className="css-1yl6cg5"
+        />
+        <div
+          className="css-ozq6zu"
+        />
+      </div>
+    </button>
+     
+    <br />
+    <br />
+    <button
+      alt={true}
+      className="c5"
+    >
+      <div
+        className="css-0"
+      >
+        <div
+          className="css-14rszfo"
+        />
+        <div
+          className="css-18irchw"
+        />
+        <div
+          className="css-14rszfo"
+        />
+      </div>
+    </button>
+     
+    <br />
+    <br />
+  </div>
+</div>
+`;
+
+exports[`Storyshots COMPONENTS|Button Loading small 1`] = `
+.c0 {
+  background: #0038FF;
+  color: white;
+  text-align: center;
+  border: 1px solid #0038FF;
+  border-radius: 4px;
+  min-width: 60px;
+  height: 32px;
+  font-size: 14px;
+  opacity: 1;
+  padding: 0 16px;
+  width: unset;
+  font-style: normal;
+}
+
+.c0:active {
+  background: linear-gradient(0deg,rgba(0,0,0,0.1),rgba(0,0,0,0.1)),#0038FF;
+}
+
+.c1 {
+  background: #E6E8ED;
+  color: #0D1531;
+  text-align: center;
+  border: 1px solid #E6E8ED;
+  border-radius: 4px;
+  min-width: 60px;
+  height: 32px;
+  font-size: 14px;
+  opacity: 1;
+  padding: 0 16px;
+  width: unset;
+  font-style: normal;
+}
+
+.c1:active {
+  background: linear-gradient(0deg,rgba(0,0,0,0.1),rgba(0,0,0,0.1)),#E6E8ED;
+}
+
+.c2 {
+  background: #E13535;
+  color: white;
+  text-align: center;
+  border: 1px solid #E13535;
+  border-radius: 4px;
+  min-width: 60px;
+  height: 32px;
+  font-size: 14px;
+  opacity: 1;
+  padding: 0 16px;
+  width: unset;
+  font-style: normal;
+}
+
+.c2:active {
+  background: linear-gradient(0deg,rgba(0,0,0,0.1),rgba(0,0,0,0.1)),#E13535;
+}
+
+.c3 {
+  background: white;
+  color: #0038FF;
+  text-align: center;
+  border: 1px solid #0038FF;
+  border-radius: 4px;
+  min-width: 60px;
+  height: 32px;
+  font-size: 14px;
+  opacity: 1;
+  padding: 0 16px;
+  width: unset;
+  font-style: normal;
+}
+
+.c3:active {
+  background: linear-gradient(0deg,rgba(0,0,0,0.1),rgba(0,0,0,0.1)),white;
+}
+
+.c4 {
+  background: white;
+  color: #0D1531;
+  text-align: center;
+  border: 1px solid #B3B7C4;
+  border-radius: 4px;
+  min-width: 60px;
+  height: 32px;
+  font-size: 14px;
+  opacity: 1;
+  padding: 0 16px;
+  width: unset;
+  font-style: normal;
+}
+
+.c4:active {
+  background: linear-gradient(0deg,rgba(0,0,0,0.1),rgba(0,0,0,0.1)),white;
+}
+
+.c5 {
+  background: white;
+  color: #E13535;
+  text-align: center;
+  border: 1px solid #E13535;
+  border-radius: 4px;
+  min-width: 60px;
+  height: 32px;
+  font-size: 14px;
+  opacity: 1;
+  padding: 0 16px;
+  width: unset;
+  font-style: normal;
+}
+
+.c5:active {
+  background: linear-gradient(0deg,rgba(0,0,0,0.1),rgba(0,0,0,0.1)),white;
+}
+
+<div
+  className="story-container"
+>
+  <div
+    style={
+      Object {
+        "textAlign": "center",
+      }
+    }
+  >
+    <button
+      className="c0"
+    >
+      <div
+        className="css-0"
+      >
+        <div
+          className="css-ksvrfw"
+        />
+        <div
+          className="css-s782tf"
+        />
+        <div
+          className="css-ksvrfw"
+        />
+      </div>
+    </button>
+     
+    <br />
+    <br />
+    <button
+      className="c1"
+    >
+      <div
+        className="css-0"
+      >
+        <div
+          className="css-i4w2nr"
+        />
+        <div
+          className="css-1uilv6p"
+        />
+        <div
+          className="css-i4w2nr"
+        />
+      </div>
+    </button>
+     
+    <br />
+    <br />
+    <button
+      className="c2"
+    >
+      <div
+        className="css-0"
+      >
+        <div
+          className="css-ksvrfw"
+        />
+        <div
+          className="css-s782tf"
+        />
+        <div
+          className="css-ksvrfw"
+        />
+      </div>
+    </button>
+     
+    <br />
+    <br />
+    <button
+      alt={true}
+      className="c3"
+    >
+      <div
+        className="css-0"
+      >
+        <div
+          className="css-ttt3xj"
+        />
+        <div
+          className="css-1t8zsg2"
+        />
+        <div
+          className="css-ttt3xj"
+        />
+      </div>
+    </button>
+     
+    <br />
+    <br />
+    <button
+      alt={true}
+      className="c4"
+    >
+      <div
+        className="css-0"
+      >
+        <div
+          className="css-i4w2nr"
+        />
+        <div
+          className="css-1uilv6p"
+        />
+        <div
+          className="css-i4w2nr"
+        />
+      </div>
+    </button>
+     
+    <br />
+    <br />
+    <button
+      alt={true}
+      className="c5"
+    >
+      <div
+        className="css-0"
+      >
+        <div
+          className="css-thz0wp"
+        />
+        <div
+          className="css-1w9acf2"
+        />
+        <div
+          className="css-thz0wp"
+        />
+      </div>
+    </button>
+     
+    <br />
+    <br />
+  </div>
+</div>
+`;
+
+exports[`Storyshots COMPONENTS|Button Small 1`] = `
+.c0 {
+  background: #0038FF;
+  color: white;
+  text-align: center;
+  border: 1px solid #0038FF;
+  border-radius: 4px;
+  min-width: 60px;
+  height: 32px;
+  font-size: 14px;
+  opacity: 1;
+  padding: 0 16px;
+  width: unset;
+  font-style: normal;
+}
+
+.c0:active {
+  background: linear-gradient(0deg,rgba(0,0,0,0.1),rgba(0,0,0,0.1)),#0038FF;
+}
+
+.c1 {
+  background: #E6E8ED;
+  color: #0D1531;
+  text-align: center;
+  border: 1px solid #E6E8ED;
+  border-radius: 4px;
+  min-width: 60px;
+  height: 32px;
+  font-size: 14px;
+  opacity: 1;
+  padding: 0 16px;
+  width: unset;
+  font-style: normal;
+}
+
+.c1:active {
+  background: linear-gradient(0deg,rgba(0,0,0,0.1),rgba(0,0,0,0.1)),#E6E8ED;
+}
+
+.c2 {
+  background: #E13535;
+  color: white;
+  text-align: center;
+  border: 1px solid #E13535;
+  border-radius: 4px;
+  min-width: 60px;
+  height: 32px;
+  font-size: 14px;
+  opacity: 1;
+  padding: 0 16px;
+  width: unset;
+  font-style: normal;
+}
+
+.c2:active {
+  background: linear-gradient(0deg,rgba(0,0,0,0.1),rgba(0,0,0,0.1)),#E13535;
+}
+
+.c3 {
+  background: white;
+  color: #0038FF;
+  text-align: center;
+  border: 1px solid #0038FF;
+  border-radius: 4px;
+  min-width: 60px;
+  height: 32px;
+  font-size: 14px;
+  opacity: 1;
+  padding: 0 16px;
+  width: unset;
+  font-style: normal;
+}
+
+.c3:active {
+  background: linear-gradient(0deg,rgba(0,0,0,0.1),rgba(0,0,0,0.1)),white;
+}
+
+.c4 {
+  background: white;
+  color: #0D1531;
+  text-align: center;
+  border: 1px solid #B3B7C4;
+  border-radius: 4px;
+  min-width: 60px;
+  height: 32px;
+  font-size: 14px;
+  opacity: 1;
+  padding: 0 16px;
+  width: unset;
+  font-style: normal;
+}
+
+.c4:active {
+  background: linear-gradient(0deg,rgba(0,0,0,0.1),rgba(0,0,0,0.1)),white;
+}
+
+.c5 {
+  background: white;
+  color: #E13535;
+  text-align: center;
+  border: 1px solid #E13535;
+  border-radius: 4px;
+  min-width: 60px;
+  height: 32px;
+  font-size: 14px;
+  opacity: 1;
+  padding: 0 16px;
+  width: unset;
+  font-style: normal;
+}
+
+.c5:active {
+  background: linear-gradient(0deg,rgba(0,0,0,0.1),rgba(0,0,0,0.1)),white;
+}
+
+<div
+  className="story-container"
+>
+  <div
+    style={
+      Object {
+        "textAlign": "center",
+      }
+    }
+  >
+    <button
+      className="c0"
+    >
+      Ok
+    </button>
+     
+    <br />
+    <br />
+    <button
+      className="c1"
+    >
+      Ok
+    </button>
+     
+    <br />
+    <br />
+    <button
+      className="c2"
+    >
+      Ok
+    </button>
+     
+    <br />
+    <br />
+    <button
+      alt={true}
+      className="c3"
+    >
+      Ok
+    </button>
+     
+    <br />
+    <br />
+    <button
+      alt={true}
+      className="c4"
+    >
+      Ok
+    </button>
+     
+    <br />
+    <br />
+    <button
+      alt={true}
+      className="c5"
+    >
+      Ok
+    </button>
+     
+    <br />
+    <br />
+  </div>
+</div>
+`;
+
+exports[`Storyshots COMPONENTS|Button Text button 1`] = `
+.c0 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  min-height: 32px;
+  background: transparent;
+  color: #0038FF;
+  font-size: 14px;
+  border: none;
+  opacity: 1;
+}
+
+.c0:focus,
+.c0:active {
+  outline: none;
+}
+
+.c1 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  min-height: 32px;
+  background: transparent;
+  color: #0D1531;
+  font-size: 14px;
+  border: none;
+  opacity: 1;
+}
+
+.c1:focus,
+.c1:active {
+  outline: none;
+}
+
+.c2 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  min-height: 32px;
+  background: transparent;
+  color: #E13535;
+  font-size: 14px;
+  border: none;
+  opacity: 1;
+}
+
+.c2:focus,
+.c2:active {
+  outline: none;
+}
+
+<div
+  className="story-container"
+>
+  <div
+    style={
+      Object {
+        "textAlign": "center",
+      }
+    }
+  >
+    <button
+      className="c0"
+    >
+      Button
+    </button>
+     
+    <br />
+    <br />
+    <button
+      className="c1"
+    >
+      Button
+    </button>
+     
+    <br />
+    <br />
+    <button
+      className="c2"
+    >
+      Button
+    </button>
+     
+    <br />
+    <br />
+  </div>
+</div>
+`;
+
+exports[`Storyshots COMPONENTS|Card CardOverview 1`] = `
+.c4 {
+  background: white;
+  color: #0038FF;
+  text-align: center;
+  border: 1px solid #0038FF;
+  border-radius: 8px;
+  min-width: 80px;
+  height: 48px;
+  font-size: 16px;
+  opacity: 1;
+  padding: 0 24px;
+  width: unset;
+  font-style: normal;
+}
+
+.c4:active {
+  background: linear-gradient(0deg,rgba(0,0,0,0.1),rgba(0,0,0,0.1)),white;
+}
+
+.c2 {
+  font-size: 70px;
+  font-weight: 500;
+}
+
+.c0 {
+  text-align: center;
+  box-shadow: 0px 0px 37px rgba(0,0,0,0.1);
+  border: 0 !important;
+  border-radius: 9px !important;
+}
+
+.c3 {
+  font-size: 24px;
+}
+
+.c1 {
+  padding: 28px;
+}
+
+.c6 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+@media (max-width:991.98px) {
+  .c2 {
+    font-size: 18px;
+    margin: 0 5px;
+  }
+}
+
+@media (min-width:992px) {
+  .c0 {
+    height: 100%;
+  }
+}
+
+@media (max-width:991.98px) {
+  .c0 {
+    display: block;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width:991.98px) {
+  .c3 {
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+    text-align: left;
+    font-size: 16px;
+    margin: 0;
+  }
+}
+
+@media (min-width:992px) {
+  .c1 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+}
+
+@media (max-width:991.98px) {
+  .c1 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 10px !important;
+  }
+}
+
+@media (max-width:991.98px) {
+  .c5 {
+    font-size: 16px !important;
+  }
+}
+
+@media (min-width:992px) {
+  .c6 {
+    display: none;
+  }
+}
+
+@media (max-width:991.98px) {
+  .c6 {
+    display: none !important;
+  }
+}
+
+<div
+  className="story-container"
+>
+  <div
+    className="container"
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="col-lg-4"
+      >
+        <div
+          className="c0 card"
+          count="06"
+          text="Intros waiting for confirmation"
+        >
+          <div
+            className="c1 card-body"
+          >
+            <h2
+              className="c2"
+            >
+              06
+            </h2>
+            <p
+              className="c3 card-text"
+            >
+              Intros waiting for confirmation
+            </p>
+            <button
+              alt="true"
+              className="c4 c5"
+              onClick={[Function]}
+            >
+              View
+            </button>
+            <div
+              className="c6"
+            >
+              <svg
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                strokeWidth="0"
+                style={
+                  Object {
+                    "color": undefined,
+                  }
+                }
+                viewBox="0 0 256 512"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z"
+                />
+              </svg>
+              <svg
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                strokeWidth="0"
+                style={
+                  Object {
+                    "color": undefined,
+                  }
+                }
+                viewBox="0 0 256 512"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col-lg-4"
+      >
+        <div
+          className="c0 card"
+          count="21"
+          text="Intros with no reply this month"
+        >
+          <div
+            className="c1 card-body"
+          >
+            <h2
+              className="c2"
+            >
+              21
+            </h2>
+            <p
+              className="c3 card-text"
+            >
+              Intros with no reply this month
+            </p>
+            <button
+              alt="true"
+              className="c4 c5"
+              onClick={[Function]}
+            >
+              View
+            </button>
+            <div
+              className="c6"
+            >
+              <svg
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                strokeWidth="0"
+                style={
+                  Object {
+                    "color": undefined,
+                  }
+                }
+                viewBox="0 0 256 512"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z"
+                />
+              </svg>
+              <svg
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                strokeWidth="0"
+                style={
+                  Object {
+                    "color": undefined,
+                  }
+                }
+                viewBox="0 0 256 512"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col-lg-4"
+      >
+        <div
+          className="c0 card"
+          count="50+"
+          text="Completed intros this month"
+        >
+          <div
+            className="c1 card-body"
+          >
+            <h2
+              className="c2"
+            >
+              50+
+            </h2>
+            <p
+              className="c3 card-text"
+            >
+              Completed intros this month
+            </p>
+            <button
+              alt="true"
+              className="c4 c5"
+              onClick={[Function]}
+            >
+              View
+            </button>
+            <div
+              className="c6"
+            >
+              <svg
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                strokeWidth="0"
+                style={
+                  Object {
+                    "color": undefined,
+                  }
+                }
+                viewBox="0 0 256 512"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z"
+                />
+              </svg>
+              <svg
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                strokeWidth="0"
+                style={
+                  Object {
+                    "color": undefined,
+                  }
+                }
+                viewBox="0 0 256 512"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots COMPONENTS|Contact Contact Suggestions 1`] = `
+.c7 {
+  background-color: #f5f6f7;
+  padding: 10px 15px;
+}
+
+.c7 h4 {
+  font-size: 18px;
+  color: #92a4a8;
+  font-weight: normal;
+  margin: 0;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px 15px;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c3 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  width: 20%;
+}
+
+.c2 {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c6 {
+  border: none;
+  font-size: 18px;
+  width: 100%;
+}
+
+.c6:focus {
+  border: 0;
+  outline: 0;
+}
+
+.c4 {
+  width: 100%;
+}
+
+.c5 {
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.c8 {
+  max-height: calc(100vh - 250px);
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.c0 {
+  background-color: #ffffff;
+  padding: 15px;
+  width: 400px;
+}
+
+@media (max-width:991.98px) {
+  .c1 {
+    padding: 10px 15px;
+  }
+}
+
+@media (max-width:991.98px) {
+  .c8 {
+    height: calc(100vh - 210px);
+  }
+}
+
+<div
+  className="story-container"
+>
+  <div
+    className="c0"
+  >
+    <div>
+      <div
+        className="c1"
+      >
+        <div
+          className="react-tagsinput"
+          onClick={[Function]}
+        >
+          <div
+            style={
+              Object {
+                "width": "100%",
+              }
+            }
+          >
+            <div
+              aria-expanded={false}
+              aria-haspopup="listbox"
+              aria-owns="react-autowhatever-1"
+              role="combobox"
+              style={
+                Object {
+                  "width": "100%",
+                }
+              }
+            >
+              <div
+                style={
+                  Object {
+                    "maxWidth": 550,
+                  }
+                }
+              >
+                <div
+                  className="c2"
+                >
+                  <div
+                    className="c3"
+                  >
+                    Intro
+                  </div>
+                  <div
+                    className="c4"
+                  >
+                    <div
+                      className="c5"
+                    />
+                    <input
+                      aria-activedescendant={null}
+                      aria-autocomplete="list"
+                      aria-controls="react-autowhatever-1"
+                      autoComplete="off"
+                      className="c6"
+                      disabled={false}
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      onFocus={[Function]}
+                      onKeyDown={[Function]}
+                      style={Object {}}
+                      type="text"
+                      value=""
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                id="react-autowhatever-1"
+                role="listbox"
+                style={
+                  Object {
+                    "display": "none",
+                    "margin": "10px -15px 0",
+                  }
+                }
+              >
+                <div
+                  className="c7"
+                >
+                  <h4>
+                    Recent Contacts
+                  </h4>
+                </div>
+                <div
+                  className="c8"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="c7"
+      >
+        <h4>
+          Start typing to show matching contacts
+        </h4>
+      </div>
+    </div>
+    <div>
+      <div
+        className="c1"
+      >
+        <div
+          className="react-tagsinput"
+          onClick={[Function]}
+        >
+          <div
+            style={
+              Object {
+                "width": "100%",
+              }
+            }
+          >
+            <div
+              aria-expanded={false}
+              aria-haspopup="listbox"
+              aria-owns="react-autowhatever-1"
+              role="combobox"
+              style={
+                Object {
+                  "width": "100%",
+                }
+              }
+            >
+              <div
+                style={
+                  Object {
+                    "maxWidth": 550,
+                  }
+                }
+              >
+                <div
+                  className="c2"
+                >
+                  <div
+                    className="c3"
+                  >
+                    To
+                  </div>
+                  <div
+                    className="c4"
+                  >
+                    <div
+                      className="c5"
+                    />
+                    <input
+                      aria-activedescendant={null}
+                      aria-autocomplete="list"
+                      aria-controls="react-autowhatever-1"
+                      autoComplete="off"
+                      className="c6"
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      onFocus={[Function]}
+                      onKeyDown={[Function]}
+                      style={Object {}}
+                      type="text"
+                      value=""
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                id="react-autowhatever-1"
+                role="listbox"
+                style={
+                  Object {
+                    "display": "none",
+                    "margin": "10px -15px 0",
+                  }
+                }
+              >
+                <div
+                  className="c7"
+                >
+                  <h4>
+                    Recent Contacts
+                  </h4>
+                </div>
+                <div
+                  className="c8"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="c7"
+      >
+        <h4>
+          Start typing to show matching contacts
+        </h4>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots COMPONENTS|Contact Selected Contact 1`] = `
+.c2 {
+  position: relative;
+}
+
+.c4 {
+  font-family: Roboto,sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  position: relative;
+  text-transform: uppercase;
+  -webkit-flex: 0;
+  -ms-flex: 0;
+  flex: 0;
+  min-width: 30px;
+  min-height: 30px;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  overflow: hidden;
+  color: black;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  white-space: nowrap;
+  background-color: #E7ECAA;
+}
+
+.c9 {
+  font-family: Roboto,sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  position: relative;
+  text-transform: uppercase;
+  -webkit-flex: 0;
+  -ms-flex: 0;
+  flex: 0;
+  min-width: 30px;
+  min-height: 30px;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  overflow: hidden;
+  color: black;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  white-space: nowrap;
+  background-color: #C8AEB7;
+}
+
+.c5 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: white;
+  min-width: 30px;
+  min-height: 30px;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  overflow: hidden;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  background-color: #f5f6f7;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 8px 10px;
+  max-width: 100%;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row-reverse;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+  background-color: #f5f6f7;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 8px 10px;
+  max-width: 100%;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c3 {
+  margin: 0 10px;
+}
+
+.c6 {
+  margin: 0 10px;
+  font-size: 16px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  -webkit-flex: 5;
+  -ms-flex: 5;
+  flex: 5;
+}
+
+.c7 {
+  cursor: pointer;
+  display: none;
+  background: url(test-file-stub) no-repeat center center;
+  width: 16px;
+  height: 16px;
+}
+
+.c10 {
+  cursor: pointer;
+  background: url(test-file-stub) no-repeat center center;
+  width: 16px;
+  height: 16px;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  padding: 20px;
+  background-color: #ffffff;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+<div
+  className="story-container"
+>
+  <div
+    className="col-12 col-lg-6"
+  >
+    <div
+      className="c0"
+    >
+      <div
+        className="c1"
+        style={Object {}}
+      >
+        <div
+          className="c2 c3"
+          id={1}
+        >
+          <div
+            className="c4"
+            color="#E7ECAA"
+            fontSize="15px"
+            size="30px"
+          >
+            B
+          </div>
+          <img
+            className="c5"
+            onError={[Function]}
+            onLoad={[Function]}
+            size="30px"
+            src="https://s3.amazonaws.com/uifaces/faces/twitter/theonlyzeke/128.jpg"
+          />
+        </div>
+        <div
+          className="c6"
+        >
+          Braeden Olson
+        </div>
+        <div
+          className="c7"
+        />
+      </div>
+      <div
+        className="c8"
+        style={Object {}}
+      >
+        <div
+          className="c2 c3"
+          id={2}
+        >
+          <div
+            className="c9"
+            color="#C8AEB7"
+            fontSize="15px"
+            size="30px"
+          >
+            K
+          </div>
+          <img
+            className="c5"
+            onError={[Function]}
+            onLoad={[Function]}
+            size="30px"
+            src="https://s3.amazonaws.com/uifaces/faces/twitter/theonlyzeke/128.jpg"
+          />
+        </div>
+        <div
+          className="c6"
+        >
+          Kanye West
+        </div>
+        <div
+          className="c7"
+        />
+      </div>
+    </div>
+    <div
+      className="c0"
+    >
+      <div
+        className="c1"
+        style={Object {}}
+      >
+        <div
+          className="c2 c3"
+          id={1}
+        >
+          <div
+            className="c4"
+            color="#E7ECAA"
+            fontSize="15px"
+            size="30px"
+          >
+            B
+          </div>
+          <img
+            className="c5"
+            onError={[Function]}
+            onLoad={[Function]}
+            size="30px"
+            src="https://s3.amazonaws.com/uifaces/faces/twitter/theonlyzeke/128.jpg"
+          />
+        </div>
+        <div
+          className="c6"
+        >
+          Braeden Olson
+        </div>
+        <div
+          className="c10"
+          onClick={true}
+        />
+      </div>
+      <div
+        className="c8"
+        style={Object {}}
+      >
+        <div
+          className="c2 c3"
+          id={2}
+        >
+          <div
+            className="c9"
+            color="#C8AEB7"
+            fontSize="15px"
+            size="30px"
+          >
+            K
+          </div>
+          <img
+            className="c5"
+            onError={[Function]}
+            onLoad={[Function]}
+            size="30px"
+            src="https://s3.amazonaws.com/uifaces/faces/twitter/theonlyzeke/128.jpg"
+          />
+        </div>
+        <div
+          className="c6"
+        >
+          Kanye West
+        </div>
+        <div
+          className="c10"
+          onClick={true}
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots COMPONENTS|Field Default 1`] = `
+.c0 {
+  border-radius: 0;
+  border-color: #d4d4d4 !important;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-radius: 0 !important;
+  height: 50px;
+  margin-bottom: 5px;
+}
+
+<div
+  className="story-container"
+>
+  <div
+    className="form-group introduce-input"
+  >
+    <label>
+      Text
+    </label>
+    <div>
+      <input
+        autoFocus={true}
+        className="c0 form-control false"
+        name="text"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onDragStart={[Function]}
+        onDrop={[Function]}
+        onFocus={[Function]}
+        type="text"
+        value=""
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots COMPONENTS|Field Password 1`] = `
+.c0 {
+  border-radius: 0;
+  border-color: #d4d4d4 !important;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-radius: 0 !important;
+  height: 50px;
+  margin-bottom: 5px;
+}
+
+<div
+  className="story-container"
+>
+  <div
+    className="form-group introduce-input"
+  >
+    <label>
+      Password
+    </label>
+    <div>
+      <input
+        autoFocus={true}
+        className="c0 form-control false"
+        name="password"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onDragStart={[Function]}
+        onDrop={[Function]}
+        onFocus={[Function]}
+        type="password"
+        value=""
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots COMPONENTS|Flash Default 1`] = `
+<div
+  className="story-container"
+>
+  <div
+    className="alert alert-success"
+  >
+    <strong>
+      Success!
+    </strong>
+     
+    Intro created!
+  </div>
+</div>
+`;
+
+exports[`Storyshots COMPONENTS|Flash Error 1`] = `
+<div
+  className="story-container"
+>
+  <div
+    className="alert alert-danger"
+  >
+    <strong>
+      Oops!
+    </strong>
+     
+    Something wrong!
+  </div>
+</div>
+`;
+
+exports[`Storyshots COMPONENTS|Header Default 1`] = `
+.c1 {
+  -webkit-letter-spacing: 5.8px;
+  -moz-letter-spacing: 5.8px;
+  -ms-letter-spacing: 5.8px;
+  letter-spacing: 5.8px;
+  font-size: 17px;
+}
+
+.c0 {
+  margin-bottom: 15px;
+}
+
+<div
+  className="story-container"
+>
+  <div
+    className="text-center"
+  >
+    <img
+      className="c0"
+      src="/logo.svg"
+    />
+    <p
+      className="c1"
+      title="Create intro"
+    />
+  </div>
+</div>
+`;
+
+exports[`Storyshots COMPONENTS|Heading Center 1`] = `
+.c1 {
+  font-size: 24px;
+}
+
+.c0 {
+  max-width: 500;
+  margin: auto;
+  text-align: center;
+}
+
+@media (max-width:991.98px) {
+  .c1 {
+    display: block;
+  }
+}
+
+<div
+  className="story-container"
+>
+  <div
+    className="container"
+  >
+    <header>
+      <div
+        className="c0"
+      >
+        <h3
+          className="c1"
+        >
+          Accepting...
+        </h3>
+      </div>
+    </header>
+  </div>
+</div>
+`;
+
+exports[`Storyshots COMPONENTS|Heading H3 1`] = `
+.c0 {
+  font-size: 24px;
+}
+
+@media (max-width:991.98px) {
+  .c0 {
+    display: block;
+  }
+}
+
+<div
+  className="story-container"
+>
+  <h3
+    className="c0"
+  >
+    Latest Activity
+  </h3>
+</div>
+`;
+
+exports[`Storyshots COMPONENTS|Heading Header Action 1`] = `
+.c1 {
+  font-size: 24px;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 15px 0;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+@media (max-width:991.98px) {
+  .c1 {
+    display: block;
+  }
+}
+
+@media (max-width:991.98px) {
+  .c0 {
+    display: block;
+  }
+
+  .c0 a {
+    width: 100%;
+  }
+}
+
+<div
+  className="story-container"
+>
+  <div
+    className="c0"
+  >
+    <h3
+      className="c1"
+    >
+      Import Your LinkedIn Contacts
+    </h3>
+    <div />
+  </div>
+</div>
+`;
+
+exports[`Storyshots COMPONENTS|Heading List 1`] = `
+.c0 {
+  background-color: #f5f6f7;
+  padding: 10px 15px;
+}
+
+.c0 h4 {
+  font-size: 18px;
+  color: #92a4a8;
+  font-weight: normal;
+  margin: 0;
+}
+
+<div
+  className="story-container"
+>
+  <div
+    className="c0"
+  >
+    <h4>
+      Contacts
+    </h4>
+  </div>
+</div>
+`;
+
+exports[`Storyshots COMPONENTS|Heading Notification 1`] = `
+.c1 {
+  background: #0038FF;
+  color: white;
+  text-align: center;
+  border: 1px solid #0038FF;
+  border-radius: 8px;
+  min-width: 80px;
+  height: 48px;
+  font-size: 16px;
+  opacity: 1;
+  padding: 0 24px;
+  width: unset;
+  font-style: normal;
+}
+
+.c1:active {
+  background: linear-gradient(0deg,rgba(0,0,0,0.1),rgba(0,0,0,0.1)),#0038FF;
+}
+
+.c0 {
+  position: relative;
+  background-color: #047bfe;
+  padding: 16px 32px 16px 16px;
+  margin-bottom: 16px;
+}
+
+.c0 h4 {
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 100;
+  margin: 0;
+}
+
+.c2 {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  border: none;
+  background-color: transparent !important;
+  height: 1em;
+  padding: 0 !important;
+  color: #ffffff !important;
+}
+
+<div
+  className="story-container"
+>
+  <div
+    className="c0"
+  >
+    <button
+      className="c1 c2"
+      onClick={[Function]}
+    >
+      <svg
+        fill="none"
+        height="1.0em"
+        size="1.0em"
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 24 24"
+        width="1.0em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <line
+          x1="18"
+          x2="6"
+          y1="6"
+          y2="18"
+        />
+        <line
+          x1="6"
+          x2="18"
+          y1="6"
+          y2="18"
+        />
+      </svg>
+    </button>
+    <h4>
+      Notification
+    </h4>
+  </div>
+</div>
+`;
+
+exports[`Storyshots COMPONENTS|Heading Sideview 1`] = `
+.c1 {
+  background: #0038FF;
+  color: white;
+  text-align: center;
+  border: 1px solid #0038FF;
+  border-radius: 8px;
+  min-width: 80px;
+  height: 48px;
+  font-size: 16px;
+  opacity: 1;
+  padding: 0 24px;
+  width: unset;
+  font-style: normal;
+}
+
+.c1:active {
+  background: linear-gradient(0deg,rgba(0,0,0,0.1),rgba(0,0,0,0.1)),#0038FF;
+}
+
+.c4 {
+  background: #0038FF;
+  color: white;
+  text-align: center;
+  border: 1px solid #0038FF;
+  border-radius: 8px;
+  min-width: 80px;
+  height: 48px;
+  font-size: 16px;
+  opacity: 0.3;
+  padding: 0 24px;
+  width: unset;
+  font-style: normal;
+}
+
+.c4:active {
+  background: linear-gradient(0deg,rgba(0,0,0,0.1),rgba(0,0,0,0.1)),#0038FF;
+}
+
+.c3 {
+  font-size: 28px;
+  margin: inherit;
+  text-align: center;
+}
+
+.c0 {
+  position: relative;
+  border-bottom: 1px solid #e1e3e8;
+  padding: 20px 15px;
+}
+
+.c0 > button {
+  position: absolute;
+}
+
+.c5 {
+  top: 20px;
+  right: 15px;
+}
+
+.c2 {
+  border: none !important;
+  background-color: transparent;
+  height: 1.4em;
+  padding: 0 !important;
+  color: #92a4a8 !important;
+  text-align: left !important;
+}
+
+.c2:hover {
+  background-color: transparent !important;
+  color: #92a4a8 !important;
+}
+
+@media (max-width:991.98px) {
+  .c3 {
+    font-size: 18px;
+    font-weight: normal;
+  }
+}
+
+@media (max-width:991.98px) {
+  .c0 {
+    padding: 10px 15px;
+  }
+}
+
+@media (max-width:991.98px) {
+  .c5 {
+    position: absolute;
+    top: 3px;
+  }
+}
+
+@media (max-width:991.98px) {
+  .c2 {
+    top: 6px;
+  }
+}
+
+<div
+  className="story-container"
+>
+  <div
+    className="c0"
+  >
+    <button
+      className="c1 c2"
+      onClick={[Function]}
+    >
+      <svg
+        fill="none"
+        height="1.4em"
+        size="1.4em"
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 24 24"
+        width="1.4em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <line
+          x1="18"
+          x2="6"
+          y1="6"
+          y2="18"
+        />
+        <line
+          x1="6"
+          x2="18"
+          y1="6"
+          y2="18"
+        />
+      </svg>
+    </button>
+    <h2
+      className="c3"
+    >
+      Confirm Intro
+    </h2>
+    <button
+      className="c4 c5 continue_button"
+      disabled={true}
+      size="sm"
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`Storyshots COMPONENTS|Icons Default 1`] = `
+.c0 {
+  font-size: 10px;
+  color: #047BFE;
+}
+
+.c1 {
+  font-size: 20px;
+  color: #047BFE;
+}
+
+<div
+  className="story-container"
+>
+  <div>
+    <svg
+      className="c0"
+      fill="currentColor"
+      height="1em"
+      stroke="currentColor"
+      strokeWidth="0"
+      style={
+        Object {
+          "color": undefined,
+        }
+      }
+      viewBox="0 0 448 512"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M424.4 214.7L72.4 6.6C43.8-10.3 0 6.1 0 47.9V464c0 37.5 40.7 60.1 72.4 41.3l352-208c31.4-18.5 31.5-64.1 0-82.6z"
+      />
+    </svg>
+    <svg
+      className="c1"
+      fill="currentColor"
+      height="1em"
+      stroke="currentColor"
+      strokeWidth="0"
+      style={
+        Object {
+          "color": undefined,
+        }
+      }
+      viewBox="0 0 512 512"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M362.6 192.9L345 174.8c-.7-.8-1.8-1.2-2.8-1.2-1.1 0-2.1.4-2.8 1.2l-122 122.9-44.4-44.4c-.8-.8-1.8-1.2-2.8-1.2-1 0-2 .4-2.8 1.2l-17.8 17.8c-1.6 1.6-1.6 4.1 0 5.7l56 56c3.6 3.6 8 5.7 11.7 5.7 5.3 0 9.9-3.9 11.6-5.5h.1l133.7-134.4c1.4-1.7 1.4-4.2-.1-5.7z"
+      />
+      <path
+        d="M256 76c48.1 0 93.3 18.7 127.3 52.7S436 207.9 436 256s-18.7 93.3-52.7 127.3S304.1 436 256 436c-48.1 0-93.3-18.7-127.3-52.7S76 304.1 76 256s18.7-93.3 52.7-127.3S207.9 76 256 76m0-28C141.1 48 48 141.1 48 256s93.1 208 208 208 208-93.1 208-208S370.9 48 256 48z"
+      />
+    </svg>
+    <svg
+      fill="currentColor"
+      height="1em"
+      stroke="currentColor"
+      strokeWidth="0"
+      style={
+        Object {
+          "color": undefined,
+        }
+      }
+      viewBox="0 0 448 512"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z"
+      />
+    </svg>
+    <svg
+      fill="currentColor"
+      height="1em"
+      stroke="currentColor"
+      strokeWidth="0"
+      style={
+        Object {
+          "color": undefined,
+        }
+      }
+      viewBox="0 0 256 512"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z"
+      />
+    </svg>
+    <svg
+      fill="currentColor"
+      height="1em"
+      stroke="currentColor"
+      strokeWidth="0"
+      style={
+        Object {
+          "color": undefined,
+        }
+      }
+      viewBox="0 0 256 512"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"
+      />
+    </svg>
+    <svg
+      fill="currentColor"
+      height="1em"
+      stroke="currentColor"
+      strokeWidth="0"
+      style={
+        Object {
+          "color": undefined,
+        }
+      }
+      viewBox="0 0 512 512"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"
+      />
+    </svg>
+  </div>
+</div>
+`;
+
+exports[`Storyshots COMPONENTS|Icons Intro status 1`] = `
+.c0 {
+  font-size: 20px;
+  color: #E3E3E3;
+}
+
+.c1 {
+  font-size: 20px;
+  color: #E3E3E3;
+}
+
+<div
+  className="story-container"
+>
+  <div>
+    <svg
+      className="c0"
+      fill="currentColor"
+      height="1em"
+      status="initialed"
+      stroke="currentColor"
+      strokeWidth="0"
+      style={
+        Object {
+          "color": undefined,
+        }
+      }
+      viewBox="0 0 256 512"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z"
+      />
+    </svg>
+    <svg
+      className="c1"
+      fill="currentColor"
+      height="1em"
+      status="initialed"
+      stroke="currentColor"
+      strokeWidth="0"
+      style={
+        Object {
+          "color": undefined,
+        }
+      }
+      viewBox="0 0 256 512"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"
+      />
+    </svg>
+  </div>
+</div>
+`;
+
+exports[`Storyshots COMPONENTS|Icons ThumbsUp 1`] = `
+.c0 {
+  color: #E3E3E3;
+  font-size: 20px;
+}
+
+<div
+  className="story-container"
+>
+  <svg
+    className="c0"
+    fill="currentColor"
+    height="1em"
+    stroke="currentColor"
+    strokeWidth="0"
+    style={
+      Object {
+        "color": undefined,
+      }
+    }
+    viewBox="0 0 512 512"
+    width="1em"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M104 224H24c-13.255 0-24 10.745-24 24v240c0 13.255 10.745 24 24 24h80c13.255 0 24-10.745 24-24V248c0-13.255-10.745-24-24-24zM64 472c-13.255 0-24-10.745-24-24s10.745-24 24-24 24 10.745 24 24-10.745 24-24 24zM384 81.452c0 42.416-25.97 66.208-33.277 94.548h101.723c33.397 0 59.397 27.746 59.553 58.098.084 17.938-7.546 37.249-19.439 49.197l-.11.11c9.836 23.337 8.237 56.037-9.308 79.469 8.681 25.895-.069 57.704-16.382 74.757 4.298 17.598 2.244 32.575-6.148 44.632C440.202 511.587 389.616 512 346.839 512l-2.845-.001c-48.287-.017-87.806-17.598-119.56-31.725-15.957-7.099-36.821-15.887-52.651-16.178-6.54-.12-11.783-5.457-11.783-11.998v-213.77c0-3.2 1.282-6.271 3.558-8.521 39.614-39.144 56.648-80.587 89.117-113.111 14.804-14.832 20.188-37.236 25.393-58.902C282.515 39.293 291.817 0 312 0c24 0 72 8 72 81.452z"
+    />
+  </svg>
+</div>
+`;
+
+exports[`Storyshots COMPONENTS|Intro Intro item 1`] = `
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0 20px;
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  max-width: 45%;
+}
+
+.c3 > div {
+  text-align: right;
+}
+
+.c10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0 20px;
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  max-width: 45%;
+  -webkit-flex-direction: row-reverse;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+}
+
+.c10 > div {
+  text-align: left;
+}
+
+.c4 {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  max-height: 45px;
+  word-break: break-word;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  max-width: 45px;
+}
+
+.c7 > svg:first-child {
+  margin-right: 2px;
+}
+
+.c7 > svg:last-child {
+  margin-left: 2px;
+}
+
+.c2 {
+  -webkit-flex: 2;
+  -ms-flex: 2;
+  flex: 2;
+  max-width: 15%;
+}
+
+.c0 {
+  background-color: #e5e5e5;
+  display: block;
+  opacity: 0.85;
+  border-top: 1px solid #dfe1e7;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+.c1 {
+  padding: 15px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #fafafa;
+}
+
+.c1:hover {
+  background-color: #eeeeee;
+}
+
+.c12 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  max-width: 45px;
+  text-align: right;
+}
+
+.c5 {
+  position: relative;
+}
+
+.c6 {
+  font-family: Roboto,sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  position: relative;
+  text-transform: uppercase;
+  -webkit-flex: 0;
+  -ms-flex: 0;
+  flex: 0;
+  min-width: 30px;
+  min-height: 30px;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  overflow: hidden;
+  color: black;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  white-space: nowrap;
+  background-color: #E7ECAA;
+}
+
+.c11 {
+  font-family: Roboto,sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  position: relative;
+  text-transform: uppercase;
+  -webkit-flex: 0;
+  -ms-flex: 0;
+  flex: 0;
+  min-width: 30px;
+  min-height: 30px;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  overflow: hidden;
+  color: black;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  white-space: nowrap;
+  background-color: #7ADADA;
+}
+
+.c8 {
+  font-size: 20px;
+  color: #FFE60B;
+}
+
+.c9 {
+  font-size: 20px;
+  color: #E3E3E3;
+}
+
+@media (max-width:991.98px) {
+  .c3 {
+    max-width: 45%;
+  }
+}
+
+@media (max-width:575.98px) {
+  .c3 {
+    padding: 0 10px;
+  }
+}
+
+@media (max-width:991.98px) {
+  .c10 {
+    max-width: 45%;
+  }
+}
+
+@media (max-width:575.98px) {
+  .c10 {
+    padding: 0 10px;
+  }
+}
+
+@media (max-width:991.98px) {
+  .c7 {
+    max-width: 10%;
+  }
+}
+
+@media (max-width:991.98px) {
+  .c2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-size: 11px;
+    padding: 3px;
+    background-color: #F1F1F1;
+    width: 18%;
+    margin: 0 auto;
+    border-radius: 0 0 5px 5px;
+    color: #8D8C8D;
+  }
+}
+
+@media (max-width:575.98px) {
+  .c2 {
+    max-width: 25%;
+    width: 20%;
+  }
+}
+
+@media (max-width:991.98px) {
+  .c0 {
+    border: none;
+    margin-bottom: 6px;
+    box-shadow: 0px 0px 17px rgba(0,0,0,0.1);
+    border-radius: 9px !important;
+  }
+}
+
+@media (max-width:991.98px) {
+  .c1 {
+    padding: 18px 10px;
+    border-radius: 9px !important;
+  }
+}
+
+@media (max-width:991.98px) {
+  .c12 {
+    display: none;
+  }
+}
+
+<div
+  className="story-container"
+>
+  <a
+    className="c0"
+    onClick={[Function]}
+  >
+    <div
+      className="c1"
+    >
+      <div
+        className="c2"
+      />
+      <div
+        className="c3"
+      >
+        <div
+          className="c4"
+        >
+          Braeden Olson
+        </div>
+        <div
+          className="c5"
+          style={
+            Object {
+              "margin": "0 10px",
+              "maxWidth": "40%",
+            }
+          }
+        >
+          <div
+            className="c6"
+            color="#E7ECAA"
+            fontSize="15px"
+            size="30px"
+          >
+            B
+          </div>
+        </div>
+      </div>
+      <div
+        className="c7"
+      >
+        <svg
+          className="c8"
+          fill="currentColor"
+          height="1em"
+          status="initialized"
+          stroke="currentColor"
+          strokeWidth="0"
+          style={
+            Object {
+              "color": undefined,
+            }
+          }
+          viewBox="0 0 256 512"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z"
+          />
+        </svg>
+        <svg
+          className="c9"
+          fill="currentColor"
+          height="1em"
+          status="initialized"
+          stroke="currentColor"
+          strokeWidth="0"
+          style={
+            Object {
+              "color": undefined,
+            }
+          }
+          viewBox="0 0 256 512"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"
+          />
+        </svg>
+      </div>
+      <div
+        className="c10"
+      >
+        <div
+          className="c4"
+        >
+          Lazaro Terry
+        </div>
+        <div
+          className="c5"
+          style={
+            Object {
+              "margin": "0 10px",
+              "maxWidth": "40%",
+            }
+          }
+        >
+          <div
+            className="c11"
+            color="#7ADADA"
+            fontSize="15px"
+            size="30px"
+          >
+            L
+          </div>
+        </div>
+      </div>
+      <div
+        className="c12"
+      >
+        <svg
+          fill="currentColor"
+          height="1em"
+          stroke="currentColor"
+          strokeWidth="0"
+          style={
+            Object {
+              "color": undefined,
+            }
+          }
+          viewBox="0 0 256 512"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"
+          />
+        </svg>
+      </div>
+    </div>
+  </a>
+</div>
+`;
+
+exports[`Storyshots COMPONENTS|Intro List intros 1`] = `
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0 20px;
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  max-width: 45%;
+}
+
+.c3 > div {
+  text-align: right;
+}
+
+.c10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0 20px;
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  max-width: 45%;
+  -webkit-flex-direction: row-reverse;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+}
+
+.c10 > div {
+  text-align: left;
+}
+
+.c4 {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  max-height: 45px;
+  word-break: break-word;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.c12 {
+  -webkit-flex: 2;
+  -ms-flex: 2;
+  flex: 2;
+}
+
+.c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  max-width: 45px;
+}
+
+.c7 > svg:first-child {
+  margin-right: 2px;
+}
+
+.c7 > svg:last-child {
+  margin-left: 2px;
+}
+
+.c2 {
+  -webkit-flex: 2;
+  -ms-flex: 2;
+  flex: 2;
+  max-width: 15%;
+}
+
+.c0 {
+  background-color: #e5e5e5;
+  display: block;
+  opacity: 0.85;
+  border-top: 1px solid #dfe1e7;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+.c1 {
+  padding: 15px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #fafafa;
+}
+
+.c1:hover {
+  background-color: #eeeeee;
+}
+
+.c13 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  max-width: 45px;
+  text-align: right;
+}
+
+.c5 {
+  position: relative;
+}
+
+.c6 {
+  font-family: Roboto,sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  position: relative;
+  text-transform: uppercase;
+  -webkit-flex: 0;
+  -ms-flex: 0;
+  flex: 0;
+  min-width: 30px;
+  min-height: 30px;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  overflow: hidden;
+  color: black;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  white-space: nowrap;
+  background-color: #E7ECAA;
+}
+
+.c14 {
+  font-family: Roboto,sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  position: relative;
+  text-transform: uppercase;
+  -webkit-flex: 0;
+  -ms-flex: 0;
+  flex: 0;
+  min-width: 30px;
+  min-height: 30px;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  overflow: hidden;
+  color: black;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  white-space: nowrap;
+  background-color: #C8AEB7;
+}
+
+.c11 {
+  font-family: Roboto,sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  position: relative;
+  text-transform: uppercase;
+  -webkit-flex: 0;
+  -ms-flex: 0;
+  flex: 0;
+  min-width: 30px;
+  min-height: 30px;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  overflow: hidden;
+  color: black;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  white-space: nowrap;
+  background-color: #7ADADA;
+}
+
+.c17 {
+  font-family: Roboto,sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  position: relative;
+  text-transform: uppercase;
+  -webkit-flex: 0;
+  -ms-flex: 0;
+  flex: 0;
+  min-width: 30px;
+  min-height: 30px;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  overflow: hidden;
+  color: black;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  white-space: nowrap;
+  background-color: #9ECAE2;
+}
+
+.c15 {
+  color: #B8E986;
+  font-size: 20px;
+}
+
+.c16 {
+  -webkit-transform: scale(-1,1);
+  -ms-transform: scale(-1,1);
+  transform: scale(-1,1);
+  color: #B8E986;
+  font-size: 20px;
+}
+
+.c8 {
+  font-size: 20px;
+  color: #FFE60B;
+}
+
+.c9 {
+  font-size: 20px;
+  color: #E3E3E3;
+}
+
+@media (max-width:991.98px) {
+  .c3 {
+    max-width: 45%;
+  }
+}
+
+@media (max-width:575.98px) {
+  .c3 {
+    padding: 0 10px;
+  }
+}
+
+@media (max-width:991.98px) {
+  .c10 {
+    max-width: 45%;
+  }
+}
+
+@media (max-width:575.98px) {
+  .c10 {
+    padding: 0 10px;
+  }
+}
+
+@media (max-width:991.98px) {
+  .c12 {
+    display: none;
+  }
+}
+
+@media (max-width:991.98px) {
+  .c7 {
+    max-width: 10%;
+  }
+}
+
+@media (max-width:991.98px) {
+  .c2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-size: 11px;
+    padding: 3px;
+    background-color: #F1F1F1;
+    width: 18%;
+    margin: 0 auto;
+    border-radius: 0 0 5px 5px;
+    color: #8D8C8D;
+  }
+}
+
+@media (max-width:575.98px) {
+  .c2 {
+    max-width: 25%;
+    width: 20%;
+  }
+}
+
+@media (max-width:991.98px) {
+  .c0 {
+    border: none;
+    margin-bottom: 6px;
+    box-shadow: 0px 0px 17px rgba(0,0,0,0.1);
+    border-radius: 9px !important;
+  }
+}
+
+@media (max-width:991.98px) {
+  .c1 {
+    padding: 18px 10px;
+    border-radius: 9px !important;
+  }
+}
+
+@media (max-width:991.98px) {
+  .c13 {
+    display: none;
+  }
+}
+
+<div
+  className="story-container"
+>
+  <div>
+    <h1>
+      With Feedback
+    </h1>
+    <div
+      style={
+        Object {
+          "display": "flex",
+        }
+      }
+    >
+      <div>
+        <a
+          className="c0"
+          onClick={[Function]}
+        >
+          <div
+            className="c1"
+          >
+            <div
+              className="c2"
+            />
+            <div
+              className="c3"
+            >
+              <div
+                className="c4"
+              >
+                Braeden Olson
+              </div>
+              <div
+                className="c5"
+                style={
+                  Object {
+                    "margin": "0 10px",
+                    "maxWidth": "40%",
+                  }
+                }
+              >
+                <div
+                  className="c6"
+                  color="#E7ECAA"
+                  fontSize="15px"
+                  size="30px"
+                >
+                  B
+                </div>
+              </div>
+            </div>
+            <div
+              className="c7"
+            >
+              <svg
+                className="c8"
+                fill="currentColor"
+                height="1em"
+                status="initialized"
+                stroke="currentColor"
+                strokeWidth="0"
+                style={
+                  Object {
+                    "color": undefined,
+                  }
+                }
+                viewBox="0 0 256 512"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z"
+                />
+              </svg>
+              <svg
+                className="c9"
+                fill="currentColor"
+                height="1em"
+                status="initialized"
+                stroke="currentColor"
+                strokeWidth="0"
+                style={
+                  Object {
+                    "color": undefined,
+                  }
+                }
+                viewBox="0 0 256 512"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"
+                />
+              </svg>
+            </div>
+            <div
+              className="c10"
+            >
+              <div
+                className="c4"
+              >
+                Lazaro Terry
+              </div>
+              <div
+                className="c5"
+                style={
+                  Object {
+                    "margin": "0 10px",
+                    "maxWidth": "40%",
+                  }
+                }
+              >
+                <div
+                  className="c11"
+                  color="#7ADADA"
+                  fontSize="15px"
+                  size="30px"
+                >
+                  L
+                </div>
+              </div>
+            </div>
+            <div
+              className="c12"
+            >
+              Waiting on Braeden Olson to approve the Intro
+            </div>
+            <div
+              className="c13"
+            >
+              <svg
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                strokeWidth="0"
+                style={
+                  Object {
+                    "color": undefined,
+                  }
+                }
+                viewBox="0 0 256 512"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"
+                />
+              </svg>
+            </div>
+          </div>
+        </a>
+        <a
+          className="c0"
+          onClick={[Function]}
+        >
+          <div
+            className="c1"
+          >
+            <div
+              className="c2"
+            />
+            <div
+              className="c3"
+            >
+              <div
+                className="c4"
+              >
+                Kanye West
+              </div>
+              <div
+                className="c5"
+                style={
+                  Object {
+                    "margin": "0 10px",
+                    "maxWidth": "40%",
+                  }
+                }
+              >
+                <div
+                  className="c14"
+                  color="#C8AEB7"
+                  fontSize="15px"
+                  size="30px"
+                >
+                  K
+                </div>
+              </div>
+            </div>
+            <div
+              className="c7"
+            >
+              <svg
+                className="c15"
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                strokeWidth="0"
+                style={
+                  Object {
+                    "color": undefined,
+                  }
+                }
+                viewBox="0 0 512 512"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M104 224H24c-13.255 0-24 10.745-24 24v240c0 13.255 10.745 24 24 24h80c13.255 0 24-10.745 24-24V248c0-13.255-10.745-24-24-24zM64 472c-13.255 0-24-10.745-24-24s10.745-24 24-24 24 10.745 24 24-10.745 24-24 24zM384 81.452c0 42.416-25.97 66.208-33.277 94.548h101.723c33.397 0 59.397 27.746 59.553 58.098.084 17.938-7.546 37.249-19.439 49.197l-.11.11c9.836 23.337 8.237 56.037-9.308 79.469 8.681 25.895-.069 57.704-16.382 74.757 4.298 17.598 2.244 32.575-6.148 44.632C440.202 511.587 389.616 512 346.839 512l-2.845-.001c-48.287-.017-87.806-17.598-119.56-31.725-15.957-7.099-36.821-15.887-52.651-16.178-6.54-.12-11.783-5.457-11.783-11.998v-213.77c0-3.2 1.282-6.271 3.558-8.521 39.614-39.144 56.648-80.587 89.117-113.111 14.804-14.832 20.188-37.236 25.393-58.902C282.515 39.293 291.817 0 312 0c24 0 72 8 72 81.452z"
+                />
+              </svg>
+              <svg
+                className="c16"
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                strokeWidth="0"
+                style={
+                  Object {
+                    "color": undefined,
+                  }
+                }
+                viewBox="0 0 512 512"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M104 224H24c-13.255 0-24 10.745-24 24v240c0 13.255 10.745 24 24 24h80c13.255 0 24-10.745 24-24V248c0-13.255-10.745-24-24-24zM64 472c-13.255 0-24-10.745-24-24s10.745-24 24-24 24 10.745 24 24-10.745 24-24 24zM384 81.452c0 42.416-25.97 66.208-33.277 94.548h101.723c33.397 0 59.397 27.746 59.553 58.098.084 17.938-7.546 37.249-19.439 49.197l-.11.11c9.836 23.337 8.237 56.037-9.308 79.469 8.681 25.895-.069 57.704-16.382 74.757 4.298 17.598 2.244 32.575-6.148 44.632C440.202 511.587 389.616 512 346.839 512l-2.845-.001c-48.287-.017-87.806-17.598-119.56-31.725-15.957-7.099-36.821-15.887-52.651-16.178-6.54-.12-11.783-5.457-11.783-11.998v-213.77c0-3.2 1.282-6.271 3.558-8.521 39.614-39.144 56.648-80.587 89.117-113.111 14.804-14.832 20.188-37.236 25.393-58.902C282.515 39.293 291.817 0 312 0c24 0 72 8 72 81.452z"
+                />
+              </svg>
+            </div>
+            <div
+              className="c10"
+            >
+              <div
+                className="c4"
+              >
+                Donald Trump
+              </div>
+              <div
+                className="c5"
+                style={
+                  Object {
+                    "margin": "0 10px",
+                    "maxWidth": "40%",
+                  }
+                }
+              >
+                <div
+                  className="c17"
+                  color="#9ECAE2"
+                  fontSize="15px"
+                  size="30px"
+                >
+                  D
+                </div>
+              </div>
+            </div>
+            <div
+              className="c12"
+            >
+              Intro completed
+            </div>
+            <div
+              className="c13"
+            >
+              <svg
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                strokeWidth="0"
+                style={
+                  Object {
+                    "color": undefined,
+                  }
+                }
+                viewBox="0 0 256 512"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"
+                />
+              </svg>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+    <h1>
+      Without Feedback
+    </h1>
+    <div>
+      <a
+        className="c0"
+        onClick={[Function]}
+      >
+        <div
+          className="c1"
+        >
+          <div
+            className="c2"
+          />
+          <div
+            className="c3"
+          >
+            <div
+              className="c4"
+            >
+              Braeden Olson
+            </div>
+            <div
+              className="c5"
+              style={
+                Object {
+                  "margin": "0 10px",
+                  "maxWidth": "40%",
+                }
+              }
+            >
+              <div
+                className="c6"
+                color="#E7ECAA"
+                fontSize="15px"
+                size="30px"
+              >
+                B
+              </div>
+            </div>
+          </div>
+          <div
+            className="c7"
+          >
+            <svg
+              className="c8"
+              fill="currentColor"
+              height="1em"
+              status="initialized"
+              stroke="currentColor"
+              strokeWidth="0"
+              style={
+                Object {
+                  "color": undefined,
+                }
+              }
+              viewBox="0 0 256 512"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z"
+              />
+            </svg>
+            <svg
+              className="c9"
+              fill="currentColor"
+              height="1em"
+              status="initialized"
+              stroke="currentColor"
+              strokeWidth="0"
+              style={
+                Object {
+                  "color": undefined,
+                }
+              }
+              viewBox="0 0 256 512"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"
+              />
+            </svg>
+          </div>
+          <div
+            className="c10"
+          >
+            <div
+              className="c4"
+            >
+              Lazaro Terry
+            </div>
+            <div
+              className="c5"
+              style={
+                Object {
+                  "margin": "0 10px",
+                  "maxWidth": "40%",
+                }
+              }
+            >
+              <div
+                className="c11"
+                color="#7ADADA"
+                fontSize="15px"
+                size="30px"
+              >
+                L
+              </div>
+            </div>
+          </div>
+          <div
+            className="c13"
+          >
+            <svg
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              strokeWidth="0"
+              style={
+                Object {
+                  "color": undefined,
+                }
+              }
+              viewBox="0 0 256 512"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"
+              />
+            </svg>
+          </div>
+        </div>
+      </a>
+      <a
+        className="c0"
+        onClick={[Function]}
+      >
+        <div
+          className="c1"
+        >
+          <div
+            className="c2"
+          />
+          <div
+            className="c3"
+          >
+            <div
+              className="c4"
+            >
+              Kanye West
+            </div>
+            <div
+              className="c5"
+              style={
+                Object {
+                  "margin": "0 10px",
+                  "maxWidth": "40%",
+                }
+              }
+            >
+              <div
+                className="c14"
+                color="#C8AEB7"
+                fontSize="15px"
+                size="30px"
+              >
+                K
+              </div>
+            </div>
+          </div>
+          <div
+            className="c7"
+          >
+            <svg
+              className="c15"
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              strokeWidth="0"
+              style={
+                Object {
+                  "color": undefined,
+                }
+              }
+              viewBox="0 0 512 512"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M104 224H24c-13.255 0-24 10.745-24 24v240c0 13.255 10.745 24 24 24h80c13.255 0 24-10.745 24-24V248c0-13.255-10.745-24-24-24zM64 472c-13.255 0-24-10.745-24-24s10.745-24 24-24 24 10.745 24 24-10.745 24-24 24zM384 81.452c0 42.416-25.97 66.208-33.277 94.548h101.723c33.397 0 59.397 27.746 59.553 58.098.084 17.938-7.546 37.249-19.439 49.197l-.11.11c9.836 23.337 8.237 56.037-9.308 79.469 8.681 25.895-.069 57.704-16.382 74.757 4.298 17.598 2.244 32.575-6.148 44.632C440.202 511.587 389.616 512 346.839 512l-2.845-.001c-48.287-.017-87.806-17.598-119.56-31.725-15.957-7.099-36.821-15.887-52.651-16.178-6.54-.12-11.783-5.457-11.783-11.998v-213.77c0-3.2 1.282-6.271 3.558-8.521 39.614-39.144 56.648-80.587 89.117-113.111 14.804-14.832 20.188-37.236 25.393-58.902C282.515 39.293 291.817 0 312 0c24 0 72 8 72 81.452z"
+              />
+            </svg>
+            <svg
+              className="c16"
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              strokeWidth="0"
+              style={
+                Object {
+                  "color": undefined,
+                }
+              }
+              viewBox="0 0 512 512"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M104 224H24c-13.255 0-24 10.745-24 24v240c0 13.255 10.745 24 24 24h80c13.255 0 24-10.745 24-24V248c0-13.255-10.745-24-24-24zM64 472c-13.255 0-24-10.745-24-24s10.745-24 24-24 24 10.745 24 24-10.745 24-24 24zM384 81.452c0 42.416-25.97 66.208-33.277 94.548h101.723c33.397 0 59.397 27.746 59.553 58.098.084 17.938-7.546 37.249-19.439 49.197l-.11.11c9.836 23.337 8.237 56.037-9.308 79.469 8.681 25.895-.069 57.704-16.382 74.757 4.298 17.598 2.244 32.575-6.148 44.632C440.202 511.587 389.616 512 346.839 512l-2.845-.001c-48.287-.017-87.806-17.598-119.56-31.725-15.957-7.099-36.821-15.887-52.651-16.178-6.54-.12-11.783-5.457-11.783-11.998v-213.77c0-3.2 1.282-6.271 3.558-8.521 39.614-39.144 56.648-80.587 89.117-113.111 14.804-14.832 20.188-37.236 25.393-58.902C282.515 39.293 291.817 0 312 0c24 0 72 8 72 81.452z"
+              />
+            </svg>
+          </div>
+          <div
+            className="c10"
+          >
+            <div
+              className="c4"
+            >
+              Donald Trump
+            </div>
+            <div
+              className="c5"
+              style={
+                Object {
+                  "margin": "0 10px",
+                  "maxWidth": "40%",
+                }
+              }
+            >
+              <div
+                className="c17"
+                color="#9ECAE2"
+                fontSize="15px"
+                size="30px"
+              >
+                D
+              </div>
+            </div>
+          </div>
+          <div
+            className="c13"
+          >
+            <svg
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              strokeWidth="0"
+              style={
+                Object {
+                  "color": undefined,
+                }
+              }
+              viewBox="0 0 256 512"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"
+              />
+            </svg>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots COMPONENTS|Navbar Default 1`] = `
+.c0 {
+  padding: 4px 2px;
+  background-color: #ffffff;
+}
+
+.c2 {
+  border: none !important;
+}
+
+.c1 {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width:992px) {
+  .c0 {
+    border-bottom: 1px solid #e3e3e3;
+  }
+}
+
+@media (max-width:991.98px) {
+  .c3 {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    text-align: center;
+    padding-right: 42px;
+  }
+}
+
+@media (min-width:992px) {
+  .c1 {
+    max-width: 1920px;
+    padding-right: 15px;
+    padding-left: 15px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+}
+
+@media (max-width:991.98px) {
+  .c1 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    max-width: 1140px;
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+<div
+  className="story-container"
+>
+  <nav
+    className="c0 navbar navbar-expand-lg navbar-light"
+  >
+    <div
+      className="c1"
+    >
+      <button
+        className="c2 navbar-toggler"
+        onClick={[Function]}
+        type="button"
+      >
+        <span
+          className="navbar-toggler-icon"
+        />
+      </button>
+      <a
+        className="c3 navbar-brand"
+        href="/"
+        onClick={[Function]}
+      >
+        <img
+          alt="Bridge"
+          height="17px"
+          src="test-file-stub"
+        />
+      </a>
+    </div>
+  </nav>
+</div>
+`;
+
+exports[`Storyshots COMPONENTS|Paginate Default 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: 15px 0;
+}
+
+<div
+  className="story-container"
+>
+  <nav
+    aria-label="pagination"
+    className="c0"
+  >
+    <ul
+      className="pagination"
+    >
+      <li
+        className="page-item"
+      >
+        <a
+          aria-label="Previous"
+          className="page-link"
+          href="/introductions?page=2"
+          onClick={[Function]}
+        >
+          <span
+            aria-hidden="true"
+          >
+            «
+          </span>
+          <span
+            className="sr-only"
+          >
+            Previous
+          </span>
+        </a>
+      </li>
+      <li
+        className="page-item"
+      >
+        <a
+          className="page-link"
+          href="/introductions?page=1"
+          onClick={[Function]}
+        >
+          1
+        </a>
+      </li>
+      <li
+        className="page-item"
+      >
+        <a
+          className="page-link"
+          href="/introductions?page=2"
+          onClick={[Function]}
+        >
+          2
+        </a>
+      </li>
+      <li
+        className="page-item active"
+      >
+        <a
+          className="page-link"
+          href="/introductions?page=3"
+          onClick={[Function]}
+        >
+          3
+        </a>
+      </li>
+      <li
+        className="page-item"
+      >
+        <a
+          className="page-link"
+          href="/introductions?page=4"
+          onClick={[Function]}
+        >
+          4
+        </a>
+      </li>
+      <li
+        className="page-item"
+      >
+        <a
+          className="page-link"
+          href="/introductions?page=5"
+          onClick={[Function]}
+        >
+          5
+        </a>
+      </li>
+      <li
+        className="page-item"
+      >
+        <a
+          className="page-link"
+          href="/introductions?page=6"
+          onClick={[Function]}
+        >
+          6
+        </a>
+      </li>
+      <li
+        className="page-item disabled"
+      >
+        <button
+          className="page-link"
+        >
+          ...
+        </button>
+      </li>
+      <li
+        className="page-item"
+      >
+        <a
+          aria-label="Next"
+          className="page-link"
+          href="/introductions?page=4"
+          onClick={[Function]}
+        >
+          <span
+            aria-hidden="true"
+          >
+            »
+          </span>
+          <span
+            className="sr-only"
+          >
+            Next
+          </span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+</div>
+`;
+
+exports[`Storyshots COMPONENTS|Search Input Default 1`] = `
+.c1 {
+  background-color: none;
+  border: 1px solid #ced4da;
+  border-left: 0;
+  padding: 6px 15px 9px;
+  border-radius: 0 3px 3px 0;
+  color: #808080;
+}
+
+.c1:focus {
+  outline: 0;
+}
+
+.c1:hover {
+  color: #000000;
+}
+
+.c0 {
+  border-right: 0;
+  font-size: 18px !important;
+  border-radius: 3px;
+  padding: 22px 15px !important;
+  max-width: 350px;
+}
+
+.c0:focus {
+  box-shadow: none;
+  outline: none;
+  border-color: #ced4da;
+}
+
+<div
+  className="story-container"
+>
+  <div
+    className="input-group"
+  >
+    <input
+      className="c0 form-control"
+      onChange={[Function]}
+      placeholder="Search..."
+      type="text"
+      value=""
+    />
+    <div
+      className="input-group-prepend"
+    >
+      <button
+        className="c1"
+        style={
+          Object {
+            "backgroundColor": "#ffffff",
+            "cursor": "pointer",
+          }
+        }
+      >
+        <div
+          style={
+            Object {
+              "marginTop": 4,
+            }
+          }
+        >
+          <svg
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 512 512"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"
+            />
+          </svg>
+        </div>
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots COMPONENTS|Sidenav Default 1`] = `
+.c4 {
+  display: inline-block;
+  background-image: url(test-file-stub);
+  width: 34px;
+  height: 34px;
+}
+
+.c2 {
+  position: relative;
+}
+
+.c5 {
+  position: relative;
+}
+
+.c3 {
+  color: #000000;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.c3:hover {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  opacity: 1;
+  color: #000000;
+}
+
+.c6 {
+  color: #000000;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 18px;
+  opacity: .6;
+}
+
+.c6:hover {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  opacity: 1;
+  color: #000000;
+}
+
+.c1 {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.c0 {
+  background-color: #ffffff;
+}
+
+@media (min-width:992px) {
+  .c4 {
+    margin-right: 10px;
+  }
+}
+
+@media (min-width:992px) {
+  .c2:before {
+    content: '';
+    width: 6px;
+    height: 100%;
+    border-radius: 3.5px;
+    background-color: #4A90E2;
+    position: absolute;
+  }
+}
+
+@media (max-width:991.98px) {
+  .c2:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 6px;
+    background-color: #4A90E2;
+    bottom: 0;
+  }
+}
+
+@media (min-width:992px) {
+  .c3 {
+    padding: 6px 10px 6px 20px;
+  }
+}
+
+@media (max-width:991.98px) {
+  .c3 {
+    display: none;
+  }
+
+  .c3 > span {
+    display: none;
+  }
+}
+
+@media (min-width:992px) {
+  .c6 {
+    padding: 6px 10px 6px 20px;
+  }
+}
+
+@media (max-width:991.98px) {
+  .c6 {
+    display: none;
+  }
+
+  .c6 > span {
+    display: none;
+  }
+}
+
+@media (max-width:991.98px) {
+  .c1 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+
+  .c1 > li {
+    -webkit-flex: 0;
+    -ms-flex: 0;
+    flex: 0;
+  }
+}
+
+@media (min-width:992px) {
+  .c0 {
+    position: fixed;
+    height: calc(73vh - 0px);
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+}
+
+@media (max-width:991.98px) {
+  .c0 {
+    border-bottom: 1px solid #e3e3e3;
+    padding: 0 15px;
+    margin: 0 -15px;
+  }
+}
+
+<div
+  className="story-container"
+>
+  <div
+    className="container"
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="col-lg-4"
+      >
+        <div
+          className="c0"
+        >
+          <ul
+            className="c1"
+          >
+            <li
+              className="c2"
+            >
+              <a
+                className="c3"
+                href="/"
+                onClick={[Function]}
+              >
+                <div
+                  className="c4"
+                />
+                 
+                <span>
+                  Overview
+                </span>
+              </a>
+            </li>
+            <li
+              className="c5"
+            >
+              <a
+                className="c6"
+                href="/introductions"
+                onClick={[Function]}
+              >
+                <div
+                  className="c4"
+                />
+                 
+                <span>
+                  Intros
+                </span>
+              </a>
+            </li>
+            <li
+              className="c5"
+            >
+              <a
+                className="c6"
+                href="/contacts"
+                onClick={[Function]}
+              >
+                <div
+                  className="c4"
+                />
+                 
+                <span>
+                  Contacts
+                </span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div
+        className="col"
+      >
+        <div>
+          Overview
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots COMPONENTS|Spinner Default 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: absolute;
+  height: calc(100vh - 130px);
+  width: 100%;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+<div
+  className="story-container"
+>
+  <div
+    className="c0"
+  >
+    <div
+      className="css-0"
+    >
+      <div
+        className="css-1m7x3h4"
+      />
+      <div
+        className="css-1uyfs7h"
+      />
+      <div
+        className="css-t114tc"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots COMPONENTS|Tab Item Default 1`] = `
+.c0 {
+  background: none;
+  border: none;
+  color: #000000;
+  padding: 10px;
+  opacity: 0.6;
+  font-size: 15px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.c0:focus {
+  outline: 0;
+}
+
+.c1 {
+  background: none;
+  border: none;
+  color: #000000;
+  padding: 10px;
+  opacity: 0.6;
+  font-size: 15px;
+  cursor: pointer;
+  white-space: nowrap;
+  color: #047BFE;
+  border-bottom: 2px solid #047BFE;
+  font-weight: 500;
+  opacity: 1;
+}
+
+.c1:focus {
+  outline: 0;
+}
+
+<div
+  className="story-container"
+>
+  <div>
+    <button
+      className="c0"
+    >
+      Active (5)
+    </button>
+    <button
+      className="c1"
+    >
+      To Do (10)
+    </button>
+    <button
+      className="c0"
+    >
+      No Reply (3)
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Storyshots COMPONENTS|Thankyou Default 1`] = `
+.c4 {
+  position: relative;
+}
+
+.c5 {
+  font-family: Roboto,sans-serif;
+  font-weight: 500;
+  font-size: 27.5px;
+  position: relative;
+  text-transform: uppercase;
+  -webkit-flex: 0;
+  -ms-flex: 0;
+  flex: 0;
+  min-width: 55px;
+  min-height: 55px;
+  width: 55px;
+  height: 55px;
+  border-radius: 100%;
+  overflow: hidden;
+  color: black;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  white-space: nowrap;
+  background-color: hsl(5,60%,80%);
+}
+
+.c0 {
+  background-color: white;
+  position: relative;
+  display: block;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  text-align: left;
+  color: #0d1531;
+  margin: 10px;
+}
+
+.c3 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  margin-right: 10px;
+}
+
+.c6 {
+  -webkit-flex: 10;
+  -ms-flex: 10;
+  flex: 10;
+}
+
+.c7 {
+  font-size: 18px;
+  line-height: 23px;
+  margin-bottom: 10px;
+}
+
+.c8 {
+  border-radius: 0px 12px 12px 12px;
+  background-color: #f1f4ff;
+  font-size: 14px;
+  line-height: 18px;
+  padding: 8px 10px;
+  margin-bottom: 10px;
+}
+
+.c8 a {
+  color: inherit;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c9 {
+  font-size: 12px;
+  line-height: 15px;
+  color: #82879c;
+}
+
+.c1 {
+  max-width: 326px;
+  margin: 0 auto;
+}
+
+@media (min-width:992px) {
+  .c0 {
+    height: 85vh;
+    width: 375px;
+    max-width: 100%;
+    border: none;
+    margin: 0 auto;
+    padding-top: 20px;
+  }
+}
+
+<div
+  className="story-container"
+>
+  <div
+    className="c0"
+    id="success-page"
+  >
+    <div
+      className="c1"
+    >
+      <div
+        className="c2"
+      >
+        <div
+          className="c3"
+        >
+          <div
+            className="c4"
+          >
+            <div
+              className="c5"
+              color="hsl(5, 60%, 80%)"
+              fontSize="27.5px"
+              size="55px"
+            >
+              #
+            </div>
+            
+          </div>
+        </div>
+        <div
+          className="c6"
+        >
+          <div
+            className="c7"
+          >
+            <strong>
+              
+            </strong>
+             
+            
+          </div>
+          <div
+            className="c8"
+          >
+            Hi Braeden,
+            <br />
+            <br />
+            I am using Bridge to make intros smarter and easier. Can you please provide the information below that I can forward on to 
+            Lazaro Terry
+            .
+          </div>
+          <div
+            className="c9"
+          >
+            TIP:
+             
+            <a
+              href="https://www.entrepreneur.com/article/247692"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              How to write great forwardable content.
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr
+      align="center"
+      style={
+        Object {
+          "marginBottom": 40,
+          "marginTop": 40,
+        }
+      }
+      width="20%"
+    />
+  </div>
+</div>
+`;
+
+exports[`Storyshots COMPONENTS|Thankyou With custom message 1`] = `
+.c4 {
+  position: relative;
+}
+
+.c5 {
+  font-family: Roboto,sans-serif;
+  font-weight: 500;
+  font-size: 27.5px;
+  position: relative;
+  text-transform: uppercase;
+  -webkit-flex: 0;
+  -ms-flex: 0;
+  flex: 0;
+  min-width: 55px;
+  min-height: 55px;
+  width: 55px;
+  height: 55px;
+  border-radius: 100%;
+  overflow: hidden;
+  color: black;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  white-space: nowrap;
+  background-color: hsl(5,60%,80%);
+}
+
+.c0 {
+  background-color: white;
+  position: relative;
+  display: block;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  text-align: left;
+  color: #0d1531;
+  margin: 10px;
+}
+
+.c3 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  margin-right: 10px;
+}
+
+.c6 {
+  -webkit-flex: 10;
+  -ms-flex: 10;
+  flex: 10;
+}
+
+.c7 {
+  font-size: 18px;
+  line-height: 23px;
+  margin-bottom: 10px;
+}
+
+.c8 {
+  border-radius: 0px 12px 12px 12px;
+  background-color: #f1f4ff;
+  font-size: 14px;
+  line-height: 18px;
+  padding: 8px 10px;
+  margin-bottom: 10px;
+}
+
+.c8 a {
+  color: inherit;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c9 {
+  font-size: 12px;
+  line-height: 15px;
+  color: #82879c;
+}
+
+.c1 {
+  max-width: 326px;
+  margin: 0 auto;
+}
+
+@media (min-width:992px) {
+  .c0 {
+    height: 85vh;
+    width: 375px;
+    max-width: 100%;
+    border: none;
+    margin: 0 auto;
+    padding-top: 20px;
+  }
+}
+
+<div
+  className="story-container"
+>
+  <div
+    className="c0"
+    id="success-page"
+  >
+    <div
+      className="c1"
+    >
+      <div
+        className="c2"
+      >
+        <div
+          className="c3"
+        >
+          <div
+            className="c4"
+          >
+            <div
+              className="c5"
+              color="hsl(5, 60%, 80%)"
+              fontSize="27.5px"
+              size="55px"
+            >
+              #
+            </div>
+            
+          </div>
+        </div>
+        <div
+          className="c6"
+        >
+          <div
+            className="c7"
+          >
+            <strong>
+              
+            </strong>
+             
+            
+          </div>
+          <div
+            className="c8"
+          >
+            You have already accepted the Intro
+          </div>
+          <div
+            className="c9"
+          >
+            TIP:
+             
+            <a
+              href="https://www.entrepreneur.com/article/247692"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              How to write great forwardable content.
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr
+      align="center"
+      style={
+        Object {
+          "marginBottom": 40,
+          "marginTop": 40,
+        }
+      }
+      width="20%"
+    />
+  </div>
+</div>
+`;
+
+exports[`Storyshots COMPONENTS|Time Ago Default 1`] = `
+<div
+  className="story-container"
+>
+  <div>
+    <time
+      dateTime="2018-09-11T00:00:00.000Z"
+      fulldate={false}
+      title="2018-09-11 00:00"
+    >
+      1yr ago
+    </time>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Welcome to Storybook 1`] = `
+<div
+  className="story-container"
+>
+  <div
+    style={
+      Object {
+        "margin": 20,
+      }
+    }
+  >
+    <article
+      style={
+        Object {
+          "backgroundColor": "#fff",
+          "fontFamily": "\\"Helvetica Neue\\", Helvetica, \\"Segoe UI\\", Arial, freesans, sans-serif",
+          "lineHeight": 1.4,
+          "padding": 15,
+        }
+      }
+    >
+      <h1>
+        Welcome to storybook
+      </h1>
+      <p>
+        This is a UI component dev environment for your app.
+      </p>
+      <p>
+        We've added some basic stories inside the 
+        <code
+          style={
+            Object {
+              "backgroundColor": "#f3f2f2",
+              "border": "1px solid #eae9e9",
+              "borderRadius": 4,
+              "color": "#3a3a3a",
+              "fontSize": 15,
+              "fontWeight": 600,
+              "padding": "2px 5px",
+            }
+          }
+        >
+          src/stories
+        </code>
+         directory.
+        <br />
+        A story is a single state of one or more UI components. You can have as many stories as you want.
+        <br />
+        (Basically a story is like a visual test case.)
+      </p>
+      <p>
+        See these sample 
+        <button
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "transparent",
+              "borderBottom": "1px solid #1474f3",
+              "borderLeft": "none",
+              "borderRight": "none",
+              "borderTop": "none",
+              "color": "#1474f3",
+              "cursor": "pointer",
+              "font": "inherit",
+              "padding": 0,
+              "paddingBottom": 2,
+              "textDecoration": "none",
+            }
+          }
+          type="button"
+        >
+          stories
+        </button>
+         for a component called
+         
+        <code
+          style={
+            Object {
+              "backgroundColor": "#f3f2f2",
+              "border": "1px solid #eae9e9",
+              "borderRadius": 4,
+              "color": "#3a3a3a",
+              "fontSize": 15,
+              "fontWeight": 600,
+              "padding": "2px 5px",
+            }
+          }
+        >
+          Button
+        </code>
+        .
+      </p>
+      <p>
+        Just like that, you can add your own components as stories.
+        <br />
+        You can also edit those components and see changes right away.
+        <br />
+        (Try editing the 
+        <code
+          style={
+            Object {
+              "backgroundColor": "#f3f2f2",
+              "border": "1px solid #eae9e9",
+              "borderRadius": 4,
+              "color": "#3a3a3a",
+              "fontSize": 15,
+              "fontWeight": 600,
+              "padding": "2px 5px",
+            }
+          }
+        >
+          Button
+        </code>
+         stories located at
+         
+        <code
+          style={
+            Object {
+              "backgroundColor": "#f3f2f2",
+              "border": "1px solid #eae9e9",
+              "borderRadius": 4,
+              "color": "#3a3a3a",
+              "fontSize": 15,
+              "fontWeight": 600,
+              "padding": "2px 5px",
+            }
+          }
+        >
+          src/stories/index.js
+        </code>
+        .)
+      </p>
+      <p>
+        Usually we create stories with smaller UI components in the app.
+        <br />
+        Have a look at the
+         
+        <a
+          href="https://storybook.js.org/basics/writing-stories"
+          rel="noopener noreferrer"
+          style={
+            Object {
+              "borderBottom": "1px solid #1474f3",
+              "color": "#1474f3",
+              "paddingBottom": 2,
+              "textDecoration": "none",
+            }
+          }
+          target="_blank"
+        >
+          Writing Stories
+        </a>
+         
+        section in our documentation.
+      </p>
+      <p
+        style={
+          Object {
+            "opacity": 0.5,
+          }
+        }
+      >
+        <b>
+          NOTE:
+        </b>
+        <br />
+        Have a look at the 
+        <code
+          style={
+            Object {
+              "backgroundColor": "#f3f2f2",
+              "border": "1px solid #eae9e9",
+              "borderRadius": 4,
+              "color": "#3a3a3a",
+              "fontSize": 15,
+              "fontWeight": 600,
+              "padding": "2px 5px",
+            }
+          }
+        >
+          .storybook/webpack.config.js
+        </code>
+         to add webpack loaders and plugins you are using in this project.
+      </p>
+    </article>
+  </div>
+</div>
+`;
